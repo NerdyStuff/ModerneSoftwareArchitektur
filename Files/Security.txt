@@ -1,0 +1,151 @@
+Security:
+
+Abwehren von Angriffen:
+- Bruteforce Angriffe auf Login durch maximale Versuche berenzen
+- Authentifizierung des Users über Passwort / 2 Faktor Authentifizierung
+- Verschlüsselte Verbindungen zwischen User und Server
+- Sicherstellen, dass persönliche Daten nicht nach außen dringen
+
+Sicherheit im Ruhezustand:
+- Persistenz der Daten
+- Sichern des RAMs, wenn System neu gestartet wird
+- Daten dürfen sich nicht ändern, wenn System im Ruhezustand
+
+Sicherheit bei Gebrauch:
+- Zugriffsbeschränkungen
+- Veränderungen durch unberechtigte verhindern, um Integrität zu schützen
+
+Sicherheit bei Transport:
+- Daten müssen auf vollständigkeit überprüft werden (z.B. durch Checksummen [stellen auch Integrität sicher])
+
+Vermeiden, dass dritte Zugang zu Daten bekommen:
+-> Verschlüsselte Kommunikation
+-> Sichere Passwörter (mindest Länge)
+
+Integrität:
+-> Daten dürfen nur verändert werden, wenn eine Authentifizierung stattfindet
+(z.B. OAuth Token)
+
+Wertvolle Teile der Architektur:
+- Nutzerdaten
+- Zahlungsinformationen
+- Transaktionsmodule
+- Logistikmodule
+
+Potentielle Bedrohungen:
+- Angriffe über die Webseite
+  - Bruteforce
+  - Login
+- Phishing Mails um Kundendaten zu erlangen
+- SQL Injections
+- Denial of Service (Dos / DDos)
+- Man in the middle Angriffe -> Spoofing/Tampering
+- Login als Administrator
+
+Potentieller Schaden daraus:
+- Verlust von Daten
+- Image Schaden
+- Verlust von Vertrauen der Kunden
+- Wirtschaftlicher Schaden
+- Zerstörung von Infrastruktur
+
+==================================
+Klassifizierung der Bedrohungen:
+Schadenshöhen:
+
+Hoch
+- Verlust von Kundendaten
+- Verlust von Zahlungsinformationen
+- Man in the middle
+- Login als Administrator
+ 
+Mittel
+- Imageschaden
+- Zerstörung von nicht kritischer Infrastruktur
+- Denial of Service
+
+Niedrig
+- Verlust von nicht relevanten Daten
+- Phishing mails
+
+-----------------------------------
+Reproduzierbarkeit:
+
+Hoch
+- Phishing mails
+- Denial of Service
+
+Mittel
+- Man in the middle
+- Zerstörung kritischer Infrastruktur
+- Login als Administrator
+
+Niedrig
+- 
+-----------------------------------
+Nachvollziehbarkeit:
+
+Hoch
+
+Mittel
+
+Niedrig
+
+-----------------------------------
+Affected User:
+
+Hoch
+- Denial of Service
+- Verlust von Kundendaten
+- Verlust von Zahlungsinformationen
+
+Mittel
+- SQL Injections
+
+Niedrig
+- Verlust nicht relevanter Daten
+
+-----------------------------------
+
+Grad der Erkennbarkeit
+
+Hoch
+- Phishing
+- Dos/DDos
+
+Mittel
+- Login als Administrator
+- SQL Injections
+
+Niedrig
+- Man in the middle
+====================================
+
+Secure by Design:
+- Keine Logins für Administrator von außen
+- Nutzereingaben werden auf Injections geprüft
+- Firewalls nutzen
+- Dos/DDos Erkennung mit Firewall etc
+- Alle Schutzmaßnahmen sind normalerweise an
+- Nutzer bekommen nur Zugriff auf die Dinge, die sie brauchen
+- Weniger Schnittstellen, die standartisiert sind und alle gesichert sind
+- Hohe Fehlertoleranz => Keine Fehler nach a geben um Entdecken von Problemen zu verhindern -> Meldung an Administrator
+- Passwortschutz
+
+Kryptografie:
+- Nutzen von SSL/HTTPS für kommunikation mit Browser
+-> Umleiten von HTTP zu HTTPS
+- Passwörter gehasht speichern
+- Datenbanken und Daten verschlüsseln
+- Authentifizierung mittels Key / Tokens für interne Arbeiten
+
+Identity und Access Management:
+- Verifizeirung der nutzer und des Servers mittels Zertifikaten
+- OAuth Token
+- Keys
+- Signaturen (z.B. PGP)
+
+Um eine gute Sicherheit zu gewährleisten sollten Pakete aktuellisiert werden,
+Server Wartungen durchgeführt werden, Logs angelegt werden und regelmäßig geprüft werden.
+Honeypots können genutzt werden um von Angreifern zu lernen.
+
