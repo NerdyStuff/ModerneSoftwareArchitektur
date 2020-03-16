@@ -25,50 +25,50 @@ Repository für moderne Softwarearchitektur
 ### Kernkompetenzen des Online-shoppens:
 
 Wie ist ihr derzeitiges Einkaufsverhalten?
-*- Produkt, dass gekauft werden soll in Werbekatalogen suchen, die per Post geschickt wurden. Dann in einen Laden in der nähe gehen und mit Bargeld bezahlen.*
+- *Produkt, dass gekauft werden soll in Werbekatalogen suchen, die per Post geschickt wurden. Dann in einen Laden in der nähe gehen und mit Bargeld bezahlen.*
 
-Wo sind die größten Probleme im derzeitigem Kaufverhalten?
-*- Die physische Distanz zum Geschäft ist groß.
-- Die Produktauswahl dauert lange.
-- Die öffnungszeiten sind ein Problem.*
+Wo sind die größten Probleme im derzeitigem Kaufverhalten?*
+- *Die physische Distanz zum Geschäft ist groß.*
+- *Die Produktauswahl dauert lange.*
+- *Die öffnungszeiten sind ein Problem.*
 
 Finden Sie spezielle Produkte auf Anhieb im Geschäft?
-*- Nein, nicht in jedem, vorallem Abends nicht, wenn alles ausverkauft ist.*
+- *Nein, nicht in jedem, vorallem Abends nicht, wenn alles ausverkauft ist.*
 
 Welche Produkte würden Sie eher nicht online kaufen?
-*- Dinge, die getestet werden müssen wie Kleidung, oder Dinge, die in echt gesehen werden müssen. Diese würden lokal gekauft.*
+- *Dinge, die getestet werden müssen wie Kleidung, oder Dinge, die in echt gesehen werden müssen. Diese würden lokal gekauft.*
 
 Könnten Sie sich vortstellen Bücher oder Büromaterial online zu kaufen mit Lieferung nach Hause?
-*- Ja.*
+- *Ja.*
 
 Würden Sie dafür eine Liefergebühr bezahlen?
-*- Ja. Aber wenn es lokal verfügbar ist und billiger würde ich es eher lokal kaufen.*
+- *Ja. Aber wenn es lokal verfügbar ist und billiger würde ich es eher lokal kaufen.*
 
 Was wäre, wenn Amazon Ihnen gewährleistet, dass ein Produkt verfügbar ist und innerhalb von 1-2 Werktagen zu Hause ist?
-*- Dann wäre ein Onlinekauf vorstellbar.*
+- *Dann wäre ein Onlinekauf vorstellbar.*
 
 ### Vorstellungen zur Plattform:
 
 Wie würden Sie sich vorstellen ein Buch zu kaufen?
-*- Eingabe in einer Leiste zum suchen. Dann wird das Buch angezeigt. Dann kann es gekauft werden.*
+- *Eingabe in einer Leiste zum suchen. Dann wird das Buch angezeigt. Dann kann es gekauft werden.*
 
 Würden Sie nach der Nutzun des Dienstes eine Bewertung abgeben?
-*- Ja, wenn eine Errinnerung dafür kommt.*
+- *Ja, wenn eine Errinnerung dafür kommt.*
 
 Wie soll der Bezahlvorgang aussehen?
-*- Frage nach der Kreditkarte, oder bezahlen mit PayPal, Vorkasse oder per SEPA.*
+- *Frage nach der Kreditkarte, oder bezahlen mit PayPal, Vorkasse oder per SEPA.*
 
 Würden sie für eine zusätzliche Dienstleistung, dass ein Produkt schneller kommt, bezahlen?
-*- Ja, wenn es garantiert ist.*
+- *Ja, wenn es garantiert ist.*
 
 Wie viel Geld würden Sie maximal dafür ausgeben pro Jahr?
-*- 50 bis 60 Euro*
+- *50 bis 60 Euro*
  
 Wie stellen sich die Suche vor?
-*- Es soll nach Kategorien und relevanten Ergebnissen gefiltert werden können. Relevante Ergebnisse sollen angezeigt werden.*
+- *Es soll nach Kategorien und relevanten Ergebnissen gefiltert werden können. Relevante Ergebnisse sollen angezeigt werden.*
 
 Gibt es noch weitere Suchfilter, die Sie gerne hätten?
-*- Filtern nach Preis, Produktspezisischen Eigenschaften, Marke, Sprache, Bewertung, ISBN soll möglich sein.+
+- *Filtern nach Preis, Produktspezisischen Eigenschaften, Marke, Sprache, Bewertung, ISBN soll möglich sein.+
 
 Weitere Punkte:
 *Bestellungen sollen in Historie angezeigt werden, Retouren sollen einfach sein, Lieferverfolgunng, Stornierung, hohe Kulanz*
@@ -92,12 +92,19 @@ Weitere Punkte:
 - Anforderung vom Markt: Einfacherer Kauf als im klassischen Einzelhandel
 
 ## 2) Domäne
+
 ## 3) Software Qualitätsattribute
+
 ## 4) Softwarearchitektur Design
+
 ## 5) Software Entwicklung Prinzipien und Praktiken
+
 ## 6) Softwarearchitektur Patterns
+
 ## 7) Moderne Architekturen
+
 ## 8) Performance
+
 ## 9) Security
 ### Abwehren von Angriffen:
 - Bruteforce Angriffe auf Login durch maximale Versuche berenzen
@@ -242,8 +249,13 @@ Server Wartungen durchgeführt werden, Logs angelegt werden und regelmäßig gep
 Honeypots können genutzt werden um von Angreifern zu lernen.
 
 ## 10) Dokumentation
+
 ## 11) DevOps und Softwarearchitektur
+
 ## 12) Die Skills eines Softwarearchitekten
+
 ## 13) Evolutionäre Architekturen
+
 ## 14) Wie werde ich ein guter Softwarearchitekt
+
 ## 15) Architektur und Legacy Applications
