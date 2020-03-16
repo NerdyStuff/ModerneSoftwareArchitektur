@@ -27,7 +27,7 @@ Repository für moderne Softwarearchitektur
 Wie ist ihr derzeitiges Einkaufsverhalten?
 - *Produkt, dass gekauft werden soll in Werbekatalogen suchen, die per Post geschickt wurden. Dann in einen Laden in der nähe gehen und mit Bargeld bezahlen.*
 
-Wo sind die größten Probleme im derzeitigem Kaufverhalten?*
+Wo sind die größten Probleme im derzeitigem Kaufverhalten?
 - *Die physische Distanz zum Geschäft ist groß.*
 - *Die Produktauswahl dauert lange.*
 - *Die öffnungszeiten sind ein Problem.*
@@ -68,7 +68,7 @@ Wie stellen sich die Suche vor?
 - *Es soll nach Kategorien und relevanten Ergebnissen gefiltert werden können. Relevante Ergebnisse sollen angezeigt werden.*
 
 Gibt es noch weitere Suchfilter, die Sie gerne hätten?
-- *Filtern nach Preis, Produktspezisischen Eigenschaften, Marke, Sprache, Bewertung, ISBN soll möglich sein.+
+- *Filtern nach Preis, Produktspezisischen Eigenschaften, Marke, Sprache, Bewertung, ISBN soll möglich sein.*
 
 Weitere Punkte:
 *Bestellungen sollen in Historie angezeigt werden, Retouren sollen einfach sein, Lieferverfolgunng, Stornierung, hohe Kulanz*
