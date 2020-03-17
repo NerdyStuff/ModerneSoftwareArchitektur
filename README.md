@@ -147,6 +147,58 @@ Folgende Prinzipien und Praktiken sollen für eine Qualitätserhöhung, Betriebs
 
 ## 6) Softwarearchitektur Patterns
 
+Als ein Pattern wollen wir MVC benutzen.
+
+### MVC
+
+#### Problemebeschreibung
+Aufbau der Website; Logische Trennung der verschiedenen Funktionen ist nicht gegeben.
+Arbeitsteilung wird dadurch erschwert.
+
+#### Lösungsbeschreibung
+Controller, Model und View
+##### Controller
+&rarr; Logik, Vermittlung
+&rarr; Kontrolliert Views & Models
+##### View
+&rarr; Darstellung, UI für Benutzer
+##### Model
+&rarr; Daten & Statushaltung
+
+#### Bewertung
+##### Vorteile
+ Klare Trennung, hoher Verständlichkeitsgrad
+##### Nachteile
+ Organisationsaufwand, dieser ist jedoch sehr gering
+
+#### Einsatzgebiete
+Programmierung/ Architektur des Frontends
+
+MVC wollen wir in Verbindung mit der Schichtenarchitektur benutzen.
+
+### Schichtenarchitektur
+
+#### Problembeschreibung
+Aufteilung zwischen Server und Client ist unklar, dadurch kann die Programmierung nicht stattfinden.
+
+#### Lösungsbeschreibung
+Horizontale Schichten, orientiert an MVC. Dabei wird zwischen Präsentation, Funktion und Daten unterschieden.
+Hier ist die Frage, welcher dieser Schichten vom Client übernommen wird und welche vom Server. Dabei haben wir uns für einen Thin-Client entschieden, da bei einem Online Store die Sicherheit extrem wichtig ist und bei einem Thin-Client die geringste Manipulationsgefahr besteht. Außerdem ist es am schnellsten und von der Hardware des Clients abgekoppelt. 
+
+#### Bewertung
+##### Vorteile
+&rarr; Schnelligkeit und geringe Client-Hardwareanforderungen
+&rarr; Wiederverwendbarkeit wird unterstützt
+&rarr; Höhere sicherheit
+&rarr; Bessere Skalierbarkeit
+
+##### Nachteile
+&rarr; Interfaces zwischen den Layern verursachen Mehraufwand
+&rarr; Höhere Performance für den Server nötig
+
+#### Einsatzgebiete
+Architektur des Gesamtsystems
+
 ## 7) Moderne Architekturen
 
 ## 8) Performance
