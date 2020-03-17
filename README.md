@@ -1,4 +1,4 @@
-# ModerneSoftwareArchitektur
+# Moderne Softwarearchitektur
 Repository für moderne Softwarearchitektur
 
 # Inhaltsverzeichnis
