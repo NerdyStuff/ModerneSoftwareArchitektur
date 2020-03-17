@@ -98,6 +98,52 @@ Weitere Punkte:
 ## 4) Softwarearchitektur Design
 
 ## 5) Software Entwicklung Prinzipien und Praktiken
+Folgende Prinzipien und Praktiken sollen für eine Qualitätserhöhung, Betriebsvereinfachung, Erhöhung der Wiederverwendbarkeit, Fehlererkennung und einfacheres Testen des Softwaresystems umgesetzt werden:
+### Lose Kopplung: 
+- Die einzelnen Module sind unabhängig voneinander
+- Prinzip: The Law of Demeter (LoD)
+  - Limitierte Kommunikation zwischen den Modulen (nur Freunde reden miteinander)
+  - Ein Objekt in einem Modul soll nur Methoden von sich selbst, von Objekten, die ihm übergeben wurden, von Unterobjekten, von Objekten die er erzeugt hat oder von globalen Objekten aufrufen
+  - Ein Modul soll so wenig wie möglich über andere Module wissen
+### Hohe Kohäsion:
+- Maß für den Zusammenhalt von Elementen innerhalb eines Moduls
+- Ziel: Functional cohesion: Alle Elemente in einem Modul dienen dem gleichen, eindeutigen und klar definierten Zweck -> andere Elemente sollten in ein anderes oder neues Modul ausgelagert werden
+- Jedes Modul sollte eine eindeutige, klar definierte Aufgabe besitzen -> Alle Elemente in diesem Modul sollen gemeinsam auf diese Aufgabe hinarbeiten
+### Reduzierung von Komplexität
+- Eine hohe Komplexität erzeugt Probleme
+- Prinzipien zur Reduzierung von Komplexität: 
+  - KISS: Code einfach halten
+  - DRY: Keine Redundanzen
+  - Information hiding: Das Was vom Wie trennen
+  - YAGNI: Keine Funktionalität implementieren, die nicht benötigt wird
+  - Seperation of Concern: Verantwortlichkeiten trennen
+### SOLID- Prinzip
+- S = Single Responsibility
+  - Jede Klasse soll genau eine Verantwortlichkeit besitzen
+- O = Open-Close-Principle:
+  - Klassen können ohne bestehenden Code zu ändern, erweitert werden -> darf keine Änderungen in einer anderen Klasse auslösen
+  - Module sollen erweitert werden können, jedoch soll es nicht möglich sein, den Sourcecode zu ändern
+  - Ausnahmen: Bug fixes & Änderungen am Code, die keinerlei Auswirkung auf den Nutzer dieses Codes hat
+- L = Liskov-Substitution Principle
+  - Unterklassen müssen ihre Oberklassen ersetzen können
+  - Änderungen in Unterklassen dürfen das Verhalten der Oberklasse nicht verändern
+- I = Interface Segregation Principle
+  - Implementierungen dürfen nicht von Methoden und/oder Attributen abhängig sein, die sie nicht benutzen
+- D = Dependency Inversion Principle
+  - Module höherer Ebenen sollen nicht von Modulen niedrigerer Ebenen abhängen. 
+  - Abstraktionen sollten nicht von Details abhängen <br>
+   &rarr; Module und Details sollten von Abstraktionen abhängen
+### Inversion of Control:
+- Beschreibt die Arbeitsweise von Frameworks: die Steuerung der Ausführung bestimmter Unterprogramme wird an das Framework abgegeben
+### Dependency Injection:
+- Technik, bei der ein Objekt die Beziehungen eines anderen Objektes liefert
+- Beziehung kann z.B. als Service genutzt werden. Dabei bestimmt nicht der Klient welchen Service er nutzt, sondern jemand anderes -> Grundanforderung
+- Ziel: Trennen der Verantwortlichkeiten der Erzeugung und Benutzung von Objekten
+- Typen:
+  - Constructor Injection: Beziehungen werden durch den Konstruktor des Klienten geliefert
+  - Setter/Property Injection: Klient stellt eine setter-Methode für die Injection zur Verfügung
+  - Interface/Method Injection: Interface der Beziehung stellt eine Injectionsmethode zur Verfügung -> Klienten müssen ein Interface implementieren, das eine setter-Methode implementiert
+
 
 ## 6) Softwarearchitektur Patterns
 
