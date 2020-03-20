@@ -2,13 +2,13 @@
 Repository für moderne Softwarearchitektur
 
 # Inhaltsverzeichnis
-1) [Requirements](https://github.com/NerdyStuff/ModerneSoftwareArchitektur/blob/master/README.md#1-requirements)
-1.1) Kernkompetenzen des Online-shoppens
-1.2) Vorstellungen zur Plattform
-1.3) Functional Requirements
-1.4) Non-Functional Requirements
-1.5) Business Requirements
-1.6) Constraints
+1) [Requirements](https://github.com/NerdyStuff/ModerneSoftwareArchitektur/blob/master/README.md#1-requirements)<br>
+1.1) Kernkompetenzen des Online-shoppens<br>
+1.2) Vorstellungen zur Plattform<br>
+1.3) Functional Requirements<br>
+1.4) Non-Functional Requirements<br>
+1.5) Business Requirements<br>
+1.6) Constraints<br>
 2) [Domäne](https://github.com/NerdyStuff/ModerneSoftwareArchitektur/blob/master/README.md#2-dom%C3%A4ne) (Tizian + Marcel)
 3) [Software Qualitätsattribute](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#3-software-qualit%C3%A4tsattribute)
 4) [Softwarearchitektur Design](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#4-softwarearchitektur-design) (Benno + ALLE ANDEREN WICHTIG)
@@ -110,10 +110,14 @@ Weitere Punkte:
 - Schaffen einer Online Plattform um diese Zeiten zu verkürzen und Verfügbarkeit zu erhöhen
 - Ähnlichkeiten: Verkauf von Produkten
 - Abgrenzung: Abwicklung des Kaufvorgangs online, Lieferung
-- Anforderung vom Markt: Einfacherer Kauf als im klassischen Einzelhandel
+- Anforderung vom Markt: Einfacherer Kauf als im klassischen Einzelhandel (geringerer Zeitaufwand, Produktsuche, größere Auswahl an Zahlungsdienstleistern, Lieferung)
 
 ### 1.6) Constraints
-- 
+- Einhalten der gesetzlichen Rahmenbedingungen
+- DSGVO-Konforme Datenspeicherung
+- Verbot für Minderjährige einen Kauf zu tätigen
+- Einhalten der Zollbedingungen für die jeweiligen Länder
+- Einhaltung der Verträge mit Lieferdienstleistern und Zahlungsdienstleistern
 
 ## 2) Domäne
 
