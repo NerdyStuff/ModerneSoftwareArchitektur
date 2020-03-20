@@ -9,7 +9,17 @@ Repository für moderne Softwarearchitektur
 1.4) Non-Functional Requirements<br>
 1.5) Business Requirements<br>
 1.6) Constraints<br>
-2) [Domäne](https://github.com/NerdyStuff/ModerneSoftwareArchitektur/blob/master/README.md#2-dom%C3%A4ne) (Tizian + Marcel)
+2) [Domänen](https://github.com/NerdyStuff/ModerneSoftwareArchitektur/blob/master/README.md#2-dom%C3%A4ne)<br>
+2.1) Shop<br>
+2.2) CRM + Kundenverwaltung<br>
+2.3) Produktempfehlungssystem<br>
+2.4) Zahlungssystem<br>
+2.5) Buchhaltung<br>
+2.6) Versand<br>
+2.6.1) Versender<br>
+2.7) Lager<br>
+2.8) Produktekatalog<br>
+2.8.1) Anbieter<br>
 3) [Software Qualitätsattribute](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#3-software-qualit%C3%A4tsattribute)<br>
 3.1) Maintanability<br>
 3.2) Usability<br>
@@ -132,7 +142,18 @@ Weitere Punkte:
 - Einhalten der Zollbedingungen für die jeweiligen Länder
 - Einhaltung der Verträge mit Lieferdienstleistern und Zahlungsdienstleistern
 
-## 2) Domäne
+## 2) Domänen
+### 2.1) Shop
+### 2.2) CRM + Kundenverwaltung
+### 2.3) Produktempfehlungssystem
+### 2.4) Zahlungssystem
+### 2.5) Buchhaltung
+### 2.6) Versand
+#### 2.6.1) Versender
+### 2.7) Lager
+### 2.8) Produktekatalog
+#### 2.8.1) Anbieter
+
 
 ## 3) Software Qualitätsattribute
 ### 3.1) Maintanability
