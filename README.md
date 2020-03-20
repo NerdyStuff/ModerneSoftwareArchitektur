@@ -19,7 +19,6 @@ Repository für moderne Softwarearchitektur
 
 
 ## 1) Requirements
-**Requirement Engineering**
 
 ### Kernkompetenzen des Online-shoppens:
 
@@ -73,14 +72,31 @@ Weitere Punkte:
 *Bestellungen sollen in Historie angezeigt werden, Retouren sollen einfach sein, Lieferverfolgunng, Stornierung, hohe Kulanz*
 
 ### Functional Requirements:
-- 1 Sekunde pro Aufruf maximal
 - Globale schnelle Verfügbarkeit
 - Hohe Verfügbarkeit
 - Mobile Erreichbarkeit
 - Kauf mit Account und als Gast
 - Account soll Adressen und Bezahlinformationen speichern können
-- Bestellhistorie soll sichtar sein
+- Bestellhistorie soll sichtbar sein
 - Interfaces zu Post, DHL, Verkäufern und deren Systemen (Oberflächen), zum Kunden
+- Anzeige von verschiedenen Produkten
+- Suche von bestellbaren Produkten
+- Stornieren von Produkten
+- Rücksenden von Produkten
+
+### Non Functional Requirements
+- 1 Sekunde pro Aufruf maximal
+- Verfügbarkeit der Server 99,99%
+- Laden der mobilen Webseite über 2G Netz innerhalb von 2 Sekunden
+- Zeit bis die Kaufbestätigung per E-mail beim Kunden ankommt weniger als 2 Minuten
+- Akzeptieren von Bezahlungen via Kreditkarte, SEPA Lastschrift, Geschenkgutscheinen, Aktionsgutscheinen, Monatsabrechnung, iDEAL, Przelewy24 (P24)
+- Anzeigen der Bestellhistorie in unter 3 Sekunden
+- Anzeigen der Bestellhistorie für jedes Jahr, jeden Monat und dem gesamten Zeitraum
+- Darstellung der Produkte nach Suche in Liste
+- Anzahl der angezeigten Produkte vom Nutzer auswählbar zwischen 20, 50, 100 und 500 Ergebnissen
+- Suche filterbar nach Kategorien wie Produktkategorie, Preis, Bewertung, Marke, etc.
+- Geld zurücküberweisen bei Stornierung und Rücksendung von Ware innerhalb von einer Woche
+- Rücksendungen werden angenommen innerhalb von 30 Tagen nach Lieferung
 
 ### Business Requirements:
 - Traditionellen Einzelhandel ersetzen
@@ -89,6 +105,8 @@ Weitere Punkte:
 - Ähnlichkeiten: Verkauf von Produkten
 - Abgrenzung: Abwicklung des Kaufvorgangs online, Lieferung
 - Anforderung vom Markt: Einfacherer Kauf als im klassischen Einzelhandel
+
+### Constraints
 
 ## 2) Domäne
 
