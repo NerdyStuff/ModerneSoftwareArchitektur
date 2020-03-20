@@ -4,19 +4,18 @@ Repository für moderne Softwarearchitektur
 # Inhaltsverzeichnis
 1) [Requirements](https://github.com/NerdyStuff/ModerneSoftwareArchitektur/blob/master/README.md#1-requirements)
 2) [Domäne](https://github.com/NerdyStuff/ModerneSoftwareArchitektur/blob/master/README.md#2-dom%C3%A4ne) (Tizian + Marcel)
-3) [Software Qualitätsattribute](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#3-software-qualit%C3%A4tsattribute) (Tristan)
+3) [Software Qualitätsattribute](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#3-software-qualit%C3%A4tsattribute)
 4) [Softwarearchitektur Design](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#4-softwarearchitektur-design) (Benno + ALLE ANDEREN WICHTIG)
-5) [Software Entwicklung Prinzipien und Praktiken](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#5-software-entwicklung-prinzipien-und-praktiken) (Anna-Lena)
-6) [Softwarearchitektur Patterns](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#6-softwarearchitektur-patterns) (Anton)
+5) [Software Entwicklung Prinzipien und Praktiken](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#5-software-entwicklung-prinzipien-und-praktiken)
+6) [Softwarearchitektur Patterns](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#6-softwarearchitektur-patterns)
 7) [Moderne Architekturen](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#7-moderne-architekturen)
 8) [Performance](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#8-performance) (Tizian)
-9) [Security](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#9-security) (Marcel)
-10) [Dokumentation](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#10-dokumentation)
-11) [DevOps und Softwarearchitektur](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#11-devops-und-softwarearchitektur)
-12) [Die Skills eines Softwarearchitekten](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#12-die-skills-eines-softwarearchitekten)
-13) [Evolutionäre Architekturen](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#13-evolution%C3%A4re-architekturen)
-14) [Wie werde ich ein guter Softwarearchitekt](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#14-wie-werde-ich-ein-guter-softwarearchitekt)
-15) [Architektur und Legacy Applications](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#15-architektur-und-legacy-applications)
+9) [Security](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#9-security)
+10) [Dokumentation](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#10-dokumentation) (TBD)
+11) [DevOps und Softwarearchitektur](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#11-devops-und-softwarearchitektur)(TBD)
+12) [Die Skills eines Softwarearchitekten](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#12-die-skills-eines-softwarearchitekten)(TBD)
+13) [Evolutionäre Architekturen](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#13-evolution%C3%A4re-architekturen)(TBD)
+14) [Architektur und Legacy Applications](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#15-architektur-und-legacy-applications) (TBD)
 
 
 ## 1) Requirements
@@ -425,9 +424,7 @@ Honeypots können genutzt werden um von Angreifern zu lernen.
 
 ## 13) Evolutionäre Architekturen
 
-## 14) Wie werde ich ein guter Softwarearchitekt
-
-## 15) Architektur und Legacy Applications
+## 14) Architektur und Legacy Applications
 
 
 # Gruppe
