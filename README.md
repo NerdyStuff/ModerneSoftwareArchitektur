@@ -10,13 +10,13 @@ Repository für moderne Softwarearchitektur
 1.5) Business Requirements<br>
 1.6) Constraints<br>
 2) [Domänen](https://github.com/NerdyStuff/ModerneSoftwareArchitektur/blob/master/README.md#2-dom%C3%A4ne)<br>
-2.1) Shop<br>
+2.1) Shopoberfläche<br>
 2.2) CRM + Kundenverwaltung<br>
 2.3) Produktempfehlungssystem<br>
 2.4) Zahlungssystem<br>
 2.5) Buchhaltung<br>
 2.6) Versand<br>
-2.6.1) Versender<br>
+2.6.1) Versanddienstleister<br>
 2.7) Lager<br>
 2.8) Produktekatalog<br>
 2.8.1) Anbieter<br>
@@ -143,15 +143,45 @@ Weitere Punkte:
 - Einhaltung der Verträge mit Lieferdienstleistern und Zahlungsdienstleistern
 
 ## 2) Domänen
-### 2.1) Shop
+### 2.1) Shopoberfläche
+- Hohe Benutzerfreundlichkeit
+- Einfache Bedienbarkeit
+- Übersichtliche Darstellung
+- Responsives Design
+
 ### 2.2) CRM + Kundenverwaltung
+- 24/7 Support bei Fragen und Wünschen
+- Anfragebearbeitung in maximal 10 Minuten
+- Feedback- und Bewertungsfunktion
+- Speichern von Kundeninformationen wie Adresse, Zahlungsdaten, Bewertungen, Bestellungen, etc.
+
 ### 2.3) Produktempfehlungssystem
+- Empfehlungen geben auf Basis von Käufen
+- Empfehlungen auf Basis von zuletzt angesehen
+- Empfehlungen auf Basis von Kundenbewertungen
+- Empfehlungen auf Basis von Geolocations
+- Empfehlungen auf Basis von Nutzerverhalten
+- Empfehlungen auf Basis von Trends
+
 ### 2.4) Zahlungssystem
+- Unterstützen von einer vielzahl an Zahlungsanbietern (siehe 1.4.)
+- Einfache Abrechnung von Zahlungen
+- Schnelles Bezahlen (wenige Klicks)
+- Nutzen von gespeicherten Zahlungsdaten zum Kauf
+
 ### 2.5) Buchhaltung
 ### 2.6) Versand
-#### 2.6.1) Versender
+#### 2.6.1) Versanddienstleister
+
 ### 2.7) Lager
+- Chaotische Lagerhaltung für Platzoptimierung
+- Automatisertes Lager
+- Lagerhaltungssystem meldet Lagerbestände
+
 ### 2.8) Produktekatalog
+- Große Auswahl an Produkten
+- Große Produktvielfalt
+
 #### 2.8.1) Anbieter
 
 
