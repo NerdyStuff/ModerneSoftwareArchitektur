@@ -10,7 +10,20 @@ Repository für moderne Softwarearchitektur
 1.5) Business Requirements<br>
 1.6) Constraints<br>
 2) [Domäne](https://github.com/NerdyStuff/ModerneSoftwareArchitektur/blob/master/README.md#2-dom%C3%A4ne) (Tizian + Marcel)
-3) [Software Qualitätsattribute](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#3-software-qualit%C3%A4tsattribute)
+3) [Software Qualitätsattribute](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#3-software-qualit%C3%A4tsattribute)<br>
+3.1) Maintanability<br>
+3.2) Usability<br>
+3.2.1) Learnability<br>
+3.2.2) Accessibility<br>
+3.3.3) Feedback<br> 
+3.3) Availability<br>
+3.3.1) Fehlererkennung<br>
+3.3.2) Fehlerbehebung<br>
+3.3.3) Fehlervermeidung<br>
+3.3.4) Resilienz<br>
+3.4) Portability<br>
+3.5) Interoperability<br>
+3.6) Testability<br>
 4) [Softwarearchitektur Design](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#4-softwarearchitektur-design) (Benno + ALLE ANDEREN WICHTIG)
 5) [Software Entwicklung Prinzipien und Praktiken](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#5-software-entwicklung-prinzipien-und-praktiken)
 6) [Softwarearchitektur Patterns](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#6-softwarearchitektur-patterns)
@@ -122,34 +135,34 @@ Weitere Punkte:
 ## 2) Domäne
 
 ## 3) Software Qualitätsattribute
-### Maintanability
+### 3.1) Maintanability
 - modulare Architektur → gewährleistet einfache Erweiterbarkeit und verringert Komplexität
 - Komponenten erfüllen genau eine definierte Funktion
 - Kommunikation über einheitliche Schnittstellen
 - Schnittstellen dürfen entweder gar nicht oder nur global verändert werden, sodass jede Komponente mit einer gleichen Schnittstellendefinition arbeitet
 Veränderungen eines Komponenten (z.B.: Fehlerkorrekturen) haben keinen Einfluss auf andere Komponenten. 
 
-### Usability
-#### Learnability
+### 3.2) Usability
+#### 3.2.1) Learnability
 - (Web-) Design der Anwendung ist immer ähnlich (z.B. Kacheldesign)
 - Anlehnung des Designs an ähnliche Applikationen wie Webshops
 - Einmalige Erarbeitung von Abläufen, sodass diese für den Endnutzer immer gleich sind
 - Guides / Touren für Erstnutzer
-#### Accessibility
+#### 3.2.2) Accessibility
 - Web-Application, Mobile-Application für Android, IOS und Windows
 - Breadcrumbs unterstützen Navigation, sodass s
 - Einheitliche, lesbare Farben mit High-Contrast Modus (+ Darkmode)
 - Mehrsprachigkeit und Anpassung an kulturelle Konventionen nach i18n 
-#### Feedback
+#### 3.3.3) Feedback
 - Interaktive Elemente (Warenkorb-, Bezahlbutton, usw.) erhalten Tooltips
 - Klare Kommunikation über Fehlerbehandlung
 
-### Availability
+### 3.3) Availability
 |Verfügbarkeit | Downtime/Jahr | Downtime / Monat | Downtime / Woche|
 ---|---|---|--- 
 99,999% | 5 min 16 sec | 25,9 sec | 6,05 sec
 
-#### Fehlererkennung
+#### 3.3.1) Fehlererkennung
 - Ping < 50ms 
     - durch global verteilte Server
     - Wahl eines Server bei der Verbindung ist abhängig von Ping, Server mit der niedrigsten Ping wird ausgewählt
@@ -160,7 +173,7 @@ Veränderungen eines Komponenten (z.B.: Fehlerkorrekturen) haben keinen Einfluss
     - Überprüfen, ob sich Prozesse wie erwartet verhalten
     - Denkbar wäre bspw. das erkennen von Prozessen, die in Endlosschleifen gefangen sind
 
-#### Fehlerbehebung
+#### 3.3.2) Fehlerbehebung
 - Exception Handling für Module und Funktionen sorgt für geplante Ausnahmebehandlung
 - Retry Strategien in Intervallen zur Mitigation von Racing Conditions und temporär nicht verfügbaren Services
 - Versionierung der Architektur für Rollbacks
@@ -169,26 +182,26 @@ Veränderungen eines Komponenten (z.B.: Fehlerkorrekturen) haben keinen Einfluss
     - Setzt funktionierende und umfassende Fehlererkennung voraus
     - Freischaltung nach Fix
 
-#### Fehlervermeidung
+#### 3.3.3) Fehlervermeidung
 - Datenbanken arbeiten mit Transaktionen 
 - Competence Sets durch umfangreiches Exception Handling erfüllt → siehe Fehlerbehebung 
 - Exception Prevention: Die Logik des Codes verhindert Exceptions durch Input Validation, Überprüfen von Array Grenzen, <code>null</code> Werten u.Ä.
 
-#### Resilienz
+#### 3.3.4) Resilienz
 - Isolation: modulare Architektur verhindert Kaputtgehen des gesamten Systems
 - Redundanz: Global verteilte Server (siehe Fehlererkennung) realisieren Redundanz unter Verlust einer geringen Ping
 - Lose Kopplung durch modulare Architektur und idempotente Kommunikation zwischen Komponenten
 - Fallback → siehe Fehlerbehebung
 Graceful Degradation of Service → siehe Fehlerbehebung
 
-### Portability
+### 3.4) Portability
 - Installability und Replaceability entfallen, sofern Kompatibilität mit populären Web Browsern (Firefox, Chrome, Edge, Opera, Safari, ...) gewährleistet ist
 - Internationalisierung siehe Usability → Accessibility 
-### Interoperability 
+### 3.5) Interoperability 
 - Verwendung der Standards JSON und HTTP(S) für den Informationsaustausch mit Dritten 
 - Bezug von Daten Dritter über angebotenen Schnittstellen, Anbieten eigener Daten über eigene APIs, inklusive Dokumentation zur Nutzung der APIs
 - Einheitliche Syntax und Semantik
-### Testability
+### 3.6) Testability
 - Automatische Tests gewährleisten eine umfangreiche Abdeckung
 - Unit Tests zum Test einzelner Komponenten, Nutzung von Mockdaten
 - Integration Tests mehrer Komponenten, insbesondere nach Veränderung eines Komponenten
