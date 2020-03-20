@@ -55,7 +55,20 @@ Repository für moderne Softwarearchitektur
 6.2.5) Einsatzgebiete<br>
 7) [Moderne Architekturen](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#7-moderne-architekturen)
 8) [Performance](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#8-performance) (Tizian)
-9) [Security](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#9-security)
+9) [Security](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#9-security)<br>
+9.1) Abwehren von Angriffen<br>
+9.2) Sicherheit im Ruhezustand<br>
+9.3) Sicherheit bei Gebrauch<br>
+9.4) Sicherheit bei Transport<br>
+9.5) Vermeiden, dass dritte Zugang zu Daten bekommen<br>
+9.6) Integrität<br>
+9.7) Wertvolle Teile der Architektur<br>
+9.8) Potentielle Bedrohungen<br>
+9.9) Potentieller Schaden daraus<br>
+9.10) Klassifizierung der Bedrohungen<br>
+9.11) Secure by Design<br>
+9.12) Kryptografie<br>
+9.13) Identity und Access Management<br>
 10) [Dokumentation](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#10-dokumentation) (TBD)
 11) [DevOps und Softwarearchitektur](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#11-devops-und-softwarearchitektur)(TBD)
 12) [Die Skills eines Softwarearchitekten](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#12-die-skills-eines-softwarearchitekten)(TBD)
@@ -397,39 +410,39 @@ Architektur des Gesamtsystems
 ## 8) Performance
 
 ## 9) Security
-### Abwehren von Angriffen:
+### 9.1) Abwehren von Angriffen:
 - Bruteforce Angriffe auf Login durch maximale Versuche berenzen
 - Authentifizierung des Users über Passwort / 2 Faktor Authentifizierung
 - Verschlüsselte Verbindungen zwischen User und Server
 - Sicherstellen, dass persönliche Daten nicht nach außen dringen
 
-### Sicherheit im Ruhezustand:
+### 9.2) Sicherheit im Ruhezustand:
 - Persistenz der Daten
 - Sichern des RAMs, wenn System neu gestartet wird
 - Daten dürfen sich nicht ändern, wenn System im Ruhezustand
 
-### Sicherheit bei Gebrauch:
+### 9.3) Sicherheit bei Gebrauch:
 - Zugriffsbeschränkungen
 - Veränderungen durch unberechtigte verhindern, um Integrität zu schützen
 
-### Sicherheit bei Transport:
+### 9.4) Sicherheit bei Transport:
 - Daten müssen auf vollständigkeit überprüft werden (z.B. durch Checksummen \[stellen auch Integrität sicher\])
 
-### Vermeiden, dass dritte Zugang zu Daten bekommen:
+### 9.5) Vermeiden, dass dritte Zugang zu Daten bekommen:
 -> Verschlüsselte Kommunikation
 -> Sichere Passwörter (mindest Länge)
 
-### Integrität:
+### 9.6) Integrität:
 -> Daten dürfen nur verändert werden, wenn eine Authentifizierung stattfindet
 (z.B. OAuth Token)
 
-### Wertvolle Teile der Architektur:
+### 9.7) Wertvolle Teile der Architektur:
 - Nutzerdaten
 - Zahlungsinformationen
 - Transaktionsmodule
 - Logistikmodule
 
-### Potentielle Bedrohungen:
+### 9.8) Potentielle Bedrohungen:
 - Angriffe über die Webseite
   - Bruteforce
   - Login
@@ -439,14 +452,14 @@ Architektur des Gesamtsystems
 - Man in the middle Angriffe -> Spoofing/Tampering
 - Login als Administrator
 
-### Potentieller Schaden daraus:
+### 9.9) Potentieller Schaden daraus:
 - Verlust von Daten
 - Image Schaden
 - Verlust von Vertrauen der Kunden
 - Wirtschaftlicher Schaden
 - Zerstörung von Infrastruktur
 
-### Klassifizierung der Bedrohungen:
+### 9.10) Klassifizierung der Bedrohungen:
 **Schadenshöhen:**
 
 Hoch
@@ -511,7 +524,7 @@ Mittel
 Niedrig
 - Man in the middle
 
-### Secure by Design:
+### 9.11) Secure by Design:
 - Keine Logins für Administrator von außen
 - Nutzereingaben werden auf Injections geprüft
 - Firewalls nutzen
@@ -522,14 +535,14 @@ Niedrig
 - Hohe Fehlertoleranz => Keine Fehler nach a geben um Entdecken von Problemen zu verhindern -> Meldung an Administrator
 - Passwortschutz
 
-### Kryptografie:
+### 9.12) Kryptografie:
 - Nutzen von SSL/HTTPS für kommunikation mit Browser
 -> Umleiten von HTTP zu HTTPS
 - Passwörter gehasht speichern
 - Datenbanken und Daten verschlüsseln
 - Authentifizierung mittels Key / Tokens für interne Arbeiten
 
-### Identity und Access Management:
+### 9.13) Identity und Access Management:
 - Verifizeirung der nutzer und des Servers mittels Zertifikaten
 - OAuth Token
 - Keys
