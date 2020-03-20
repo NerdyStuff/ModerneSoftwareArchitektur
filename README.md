@@ -35,8 +35,24 @@ Repository für moderne Softwarearchitektur
 3.5) Interoperability<br>
 3.6) Testability<br>
 4) [Softwarearchitektur Design](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#4-softwarearchitektur-design) (Benno + ALLE ANDEREN WICHTIG)
-5) [Software Entwicklung Prinzipien und Praktiken](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#5-software-entwicklung-prinzipien-und-praktiken)
-6) [Softwarearchitektur Patterns](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#6-softwarearchitektur-patterns)
+5) [Software Entwicklung Prinzipien und Praktiken](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#5-software-entwicklung-prinzipien-und-praktiken)<br>
+5.1) Lose Kopplung<br>
+5.2) Hohe Kohäsion<br>
+5.3) Reduzierte Komplexität<br>
+5.4) SOLID- Prinzip<br>
+5.5) Inversion of Control<br>
+5.6) Dependency Injection<br>
+6) [Softwarearchitektur Patterns](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#6-softwarearchitektur-patterns)<br>
+6.1) MVC<br>
+6.1.1) Problemebeschreibung<br>
+6.1.2) Lösungsbeschreibung<br>
+6.1.3) Bewertung<br>
+6.1.4) Einsatzgebiete<br>
+6.2) Schichtenarchitektur<br>
+6.2.1) Problembeschreibung<br>
+6.2.3) Lösungsbeschreibung<br>
+6.2.4) Bewertung<br>
+6.2.5) Einsatzgebiete<br>
 7) [Moderne Architekturen](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#7-moderne-architekturen)
 8) [Performance](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#8-performance) (Tizian)
 9) [Security](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#9-security)
@@ -276,17 +292,17 @@ Graceful Degradation of Service → siehe Fehlerbehebung
 
 ## 5) Software Entwicklung Prinzipien und Praktiken
 Folgende Prinzipien und Praktiken sollen für eine Qualitätserhöhung, Betriebsvereinfachung, Erhöhung der Wiederverwendbarkeit, Fehlererkennung und einfacheres Testen des Softwaresystems umgesetzt werden:
-### Lose Kopplung: 
+### 5.1) Lose Kopplung: 
 - Die einzelnen Module sind unabhängig voneinander
 - Prinzip: The Law of Demeter (LoD)
   - Limitierte Kommunikation zwischen den Modulen (nur Freunde reden miteinander)
   - Ein Objekt in einem Modul soll nur Methoden von sich selbst, von Objekten, die ihm übergeben wurden, von Unterobjekten, von Objekten die er erzeugt hat oder von globalen Objekten aufrufen
   - Ein Modul soll so wenig wie möglich über andere Module wissen
-### Hohe Kohäsion:
+### 5.2) Hohe Kohäsion:
 - Maß für den Zusammenhalt von Elementen innerhalb eines Moduls
 - Ziel: Functional cohesion: Alle Elemente in einem Modul dienen dem gleichen, eindeutigen und klar definierten Zweck -> andere Elemente sollten in ein anderes oder neues Modul ausgelagert werden
 - Jedes Modul sollte eine eindeutige, klar definierte Aufgabe besitzen -> Alle Elemente in diesem Modul sollen gemeinsam auf diese Aufgabe hinarbeiten
-### Reduzierung von Komplexität
+### 5.3) Reduzierung von Komplexität
 - Eine hohe Komplexität erzeugt Probleme
 - Prinzipien zur Reduzierung von Komplexität: 
   - KISS: Code einfach halten
@@ -294,7 +310,7 @@ Folgende Prinzipien und Praktiken sollen für eine Qualitätserhöhung, Betriebs
   - Information hiding: Das Was vom Wie trennen
   - YAGNI: Keine Funktionalität implementieren, die nicht benötigt wird
   - Seperation of Concern: Verantwortlichkeiten trennen
-### SOLID- Prinzip
+### 5.4) SOLID- Prinzip:
 - S = Single Responsibility
   - Jede Klasse soll genau eine Verantwortlichkeit besitzen
 - O = Open-Close-Principle:
@@ -310,9 +326,9 @@ Folgende Prinzipien und Praktiken sollen für eine Qualitätserhöhung, Betriebs
   - Module höherer Ebenen sollen nicht von Modulen niedrigerer Ebenen abhängen. 
   - Abstraktionen sollten nicht von Details abhängen <br>
    &rarr; Module und Details sollten von Abstraktionen abhängen
-### Inversion of Control:
+### 5.5) Inversion of Control:
 - Beschreibt die Arbeitsweise von Frameworks: die Steuerung der Ausführung bestimmter Unterprogramme wird an das Framework abgegeben
-### Dependency Injection:
+### 5.6) Dependency Injection:
 - Technik, bei der ein Objekt die Beziehungen eines anderen Objektes liefert
 - Beziehung kann z.B. als Service genutzt werden. Dabei bestimmt nicht der Klient welchen Service er nutzt, sondern jemand anderes -> Grundanforderung
 - Ziel: Trennen der Verantwortlichkeiten der Erzeugung und Benutzung von Objekten
@@ -326,13 +342,13 @@ Folgende Prinzipien und Praktiken sollen für eine Qualitätserhöhung, Betriebs
 
 Als ein Pattern wollen wir MVC benutzen.
 
-### MVC
+### 6.1) MVC
 
-#### Problemebeschreibung
+#### 6.1.1) Problemebeschreibung
 Aufbau der Website; Logische Trennung der verschiedenen Funktionen ist nicht gegeben.
 Arbeitsteilung wird dadurch erschwert.
 
-#### Lösungsbeschreibung
+#### 6.1.2) Lösungsbeschreibung
 Controller, Model und View
 ##### Controller
 &rarr; Logik, Vermittlung
@@ -342,27 +358,27 @@ Controller, Model und View
 ##### Model
 &rarr; Daten & Statushaltung
 
-#### Bewertung
-##### Vorteile
+#### 6.1.3) Bewertung
+#####  Vorteile
  Klare Trennung, hoher Verständlichkeitsgrad
 ##### Nachteile
  Organisationsaufwand, dieser ist jedoch sehr gering
 
-#### Einsatzgebiete
+#### 6.1.4) Einsatzgebiete
 Programmierung/ Architektur des Frontends
 
 MVC wollen wir in Verbindung mit der Schichtenarchitektur benutzen.
 
-### Schichtenarchitektur
+### 6.2) Schichtenarchitektur
 
-#### Problembeschreibung
+#### 6.2.1) Problembeschreibung
 Aufteilung zwischen Server und Client ist unklar, dadurch kann die Programmierung nicht stattfinden.
 
-#### Lösungsbeschreibung
+#### 6.2.3) Lösungsbeschreibung
 Horizontale Schichten, orientiert an MVC. Dabei wird zwischen Präsentation, Funktion und Daten unterschieden.
 Hier ist die Frage, welcher dieser Schichten vom Client übernommen wird und welche vom Server. Dabei haben wir uns für einen Thin-Client entschieden, da bei einem Online Store die Sicherheit extrem wichtig ist und bei einem Thin-Client die geringste Manipulationsgefahr besteht. Außerdem ist es am schnellsten und von der Hardware des Clients abgekoppelt. 
 
-#### Bewertung
+#### 6.2.4) Bewertung
 ##### Vorteile
 &rarr; Schnelligkeit und geringe Client-Hardwareanforderungen
 &rarr; Wiederverwendbarkeit wird unterstützt
@@ -373,7 +389,7 @@ Hier ist die Frage, welcher dieser Schichten vom Client übernommen wird und wel
 &rarr; Interfaces zwischen den Layern verursachen Mehraufwand
 &rarr; Höhere Performance für den Server nötig
 
-#### Einsatzgebiete
+#### 6.2.5) Einsatzgebiete
 Architektur des Gesamtsystems
 
 ## 7) Moderne Architekturen
