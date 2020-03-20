@@ -170,8 +170,21 @@ Weitere Punkte:
 - Nutzen von gespeicherten Zahlungsdaten zum Kauf
 
 ### 2.5) Buchhaltung
+- Keine Buchung ohne Beleg
+- Nutzen einer Softwareunterstüzung für die Buchhaltung
+- Automatisierung von Buchhaltungsprozessen
+
 ### 2.6) Versand
+- schneller Versand innerhalb eines Landes/Handelszone von wenigen Tagen mit Ausnahme von Produkten die aufwändig importiert werden müssen
+- Versanddienstleister kümmern sich um Versand zum Endkunden
+- Nur einladen in von Versanddienstleistern gestellte Transportmitteln
+
 #### 2.6.1) Versanddienstleister
+- Hermes
+- DHL
+- DPD
+- FedEx
+- etc.
 
 ### 2.7) Lager
 - Chaotische Lagerhaltung für Platzoptimierung
@@ -183,7 +196,8 @@ Weitere Punkte:
 - Große Produktvielfalt
 
 #### 2.8.1) Anbieter
-
+- Große Anzahl an Anbietern für Produkte
+- Enger Kontakt mit Anbietern
 
 ## 3) Software Qualitätsattribute
 ### 3.1) Maintanability
