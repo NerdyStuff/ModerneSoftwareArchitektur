@@ -3,6 +3,12 @@ Repository für moderne Softwarearchitektur
 
 # Inhaltsverzeichnis
 1) [Requirements](https://github.com/NerdyStuff/ModerneSoftwareArchitektur/blob/master/README.md#1-requirements)
+1.1) Kernkompetenzen des Online-shoppens
+1.2) Vorstellungen zur Plattform
+1.3) Functional Requirements
+1.4) Non-Functional Requirements
+1.5) Business Requirements
+1.6) Constraints
 2) [Domäne](https://github.com/NerdyStuff/ModerneSoftwareArchitektur/blob/master/README.md#2-dom%C3%A4ne) (Tizian + Marcel)
 3) [Software Qualitätsattribute](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#3-software-qualit%C3%A4tsattribute)
 4) [Softwarearchitektur Design](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#4-softwarearchitektur-design) (Benno + ALLE ANDEREN WICHTIG)
@@ -20,7 +26,7 @@ Repository für moderne Softwarearchitektur
 
 ## 1) Requirements
 
-### Kernkompetenzen des Online-shoppens:
+### 1.1) Kernkompetenzen des Online-shoppens:
 
 Wie ist ihr derzeitiges Einkaufsverhalten?
 - *Produkt, dass gekauft werden soll in Werbekatalogen suchen, die per Post geschickt wurden. Dann in einen Laden in der nähe gehen und mit Bargeld bezahlen.*
@@ -45,7 +51,7 @@ Würden Sie dafür eine Liefergebühr bezahlen?
 Was wäre, wenn Amazon Ihnen gewährleistet, dass ein Produkt verfügbar ist und innerhalb von 1-2 Werktagen zu Hause ist?
 - *Dann wäre ein Onlinekauf vorstellbar.*
 
-### Vorstellungen zur Plattform:
+### 1.2) Vorstellungen zur Plattform:
 
 Wie würden Sie sich vorstellen ein Buch zu kaufen?
 - *Eingabe in einer Leiste zum suchen. Dann wird das Buch angezeigt. Dann kann es gekauft werden.*
@@ -71,7 +77,7 @@ Gibt es noch weitere Suchfilter, die Sie gerne hätten?
 Weitere Punkte:
 *Bestellungen sollen in Historie angezeigt werden, Retouren sollen einfach sein, Lieferverfolgunng, Stornierung, hohe Kulanz*
 
-### Functional Requirements:
+### 1.3) Functional Requirements:
 - Globale schnelle Verfügbarkeit
 - Hohe Verfügbarkeit
 - Mobile Erreichbarkeit
@@ -84,7 +90,7 @@ Weitere Punkte:
 - Stornieren von Produkten
 - Rücksenden von Produkten
 
-### Non Functional Requirements
+### 1.4) Non-Functional Requirements
 - 1 Sekunde pro Aufruf maximal
 - Verfügbarkeit der Server 99,99%
 - Laden der mobilen Webseite über 2G Netz innerhalb von 2 Sekunden
@@ -98,7 +104,7 @@ Weitere Punkte:
 - Geld zurücküberweisen bei Stornierung und Rücksendung von Ware innerhalb von einer Woche
 - Rücksendungen werden angenommen innerhalb von 30 Tagen nach Lieferung
 
-### Business Requirements:
+### 1.5) Business Requirements:
 - Traditionellen Einzelhandel ersetzen
 - Probleme: Verfügbarkeit, Wartezeit, Anreisezeit, etc.
 - Schaffen einer Online Plattform um diese Zeiten zu verkürzen und Verfügbarkeit zu erhöhen
@@ -106,7 +112,8 @@ Weitere Punkte:
 - Abgrenzung: Abwicklung des Kaufvorgangs online, Lieferung
 - Anforderung vom Markt: Einfacherer Kauf als im klassischen Einzelhandel
 
-### Constraints
+### 1.6) Constraints
+- 
 
 ## 2) Domäne
 
