@@ -14,7 +14,7 @@ Repository für moderne Softwarearchitektur
 1.7.2) Persona 2: Alan Turing<br>
 1.7.3) Persona 3: Simon Blume<br>
 1.7.4) Persona 4: Lars Echterling<br>
-2) [Domänen](https://github.com/NerdyStuff/ModerneSoftwareArchitektur/blob/master/README.md#2-dom%C3%A4ne)<br>
+2) [Domänen](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#2-domänen)<br>
 2.1) Shopoberfläche<br>
 2.2) CRM + Kundenverwaltung<br>
 2.3) Produktempfehlungssystem<br>
