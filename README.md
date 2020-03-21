@@ -9,6 +9,11 @@ Repository für moderne Softwarearchitektur
 1.4) Non-Functional Requirements<br>
 1.5) Business Requirements<br>
 1.6) Constraints<br>
+1.7) Personas<br>
+1.7.1) Persona 1: Karen Kaufer<br>
+1.7.2) Persona 2: Alan Turing<br>
+1.7.3) Persona 3: Simon Blume<br>
+1.7.4) Persona 4: Lars Echterling<br>
 2) [Domänen](https://github.com/NerdyStuff/ModerneSoftwareArchitektur/blob/master/README.md#2-dom%C3%A4ne)<br>
 2.1) Shopoberfläche<br>
 2.2) CRM + Kundenverwaltung<br>
@@ -170,6 +175,96 @@ Weitere Punkte:
 - Verbot für Minderjährige einen Kauf zu tätigen
 - Einhalten der Zollbedingungen für die jeweiligen Länder
 - Einhaltung der Verträge mit Lieferdienstleistern und Zahlungsdienstleistern
+
+### 1.7) Personas
+#### 1.7.1) Persona 1: Karen Kaufer
+
+- Name: Karen Kaufer
+- Alter: 45 Jahre
+- Deutsch, geringe Englisch Kenntnisse
+- Verheiratet, zwei Kinder
+- Buchhalterin bei einem mittelständigen Unternehmen, durchschnittliches Einkommen
+- Kein tiefgründig technisches Wissen, kann aber problemlos das Internet navigieren und mit Computern umgehen
+
+<b> Einkaufsverhalten </b>
+- Impulsivkäuferin, nutzt Website, um sich Angebote anzugucken
+- Sieht sie in ihren personalisierten Vorschlägen Produkte die ihr gefallen, kauft sie diese
+- Hat bei Benutzen der Website meist keinen genauen Need, möchte sich erstmal nur umgucken
+- Möchte mit Lastsschrift oder Kreditkarte bezahlen können
+- Möchte sich nach mehrmaligem Einkaufen ein Benutzerkonto anlegen, um zukünftige Käufe schneller abwickeln zu können
+
+<b> Paint-Points </b>
+- Ist von zu vielen Details überfordert, möchte beim Kauf nur das Wichtigste über ein Produkt erfahren
+- Benutzt die Seite nicht noch einmal, wenn der Kaufvorgang zu kompliziert ist oder lange dauert
+- Hasst lange Lieferzeiten, hat kein Verständnis für Verzögerungen
+- Möchte leichte Retouren haben, da sie viel wieder zurückschickt
+
+<b> Needs & Wishes </b>
+- Benutzerkonto, in dem Informationen über Liefer-, Rechnungsadressen und Zahlungsinfromationen gespeichert werden
+- Einfache Benutzung, die an die anderer Webshops angelegt ist 
+
+#### 1.7.2) Persona 2: Alan Turing
+<b> Biographie </b>
+- Name: Alan Turing
+- Alter: 27 Jahre
+- Deutsch, gute Englischkenntnisse
+- IT-Admin eines mittelständigen Unternehmen, etwas überdurchschnittliches Einkommen
+- Kennt sich technisch sehr gut aus
+- Hat schon 5000 Stunden Dota 2 
+
+<b> Einkaufsverhalten </b>
+- Hat konkrete Vorstellung von Produkten, die er kaufen möchte
+- Benötigt umfassende und detailierte Beschreibungen von Produkten, um zu überprüfen, ob Produkt mit seinen Vorstellungen übereinstimmt
+- Möchte vor dem Kauf Rezensionen andere Kunden lesen
+- Bezahlt mit Lastschrift
+
+<b> Paint-Points </b>
+- Ungenaue Suchfunktionen, findet trotz exakten Angaben in der Suche unpassende Produkte
+
+<b> Needs & Wishes </b>
+- Akzeptiert lange Lieferzeiten bei Produkten aus dem Ausland, würde aber am liebsten die Lieferung bereits am selben Tag erhalten, auch gegen Aufpreis
+
+#### 1.7.3) Persona 3: Simon Blume
+<b> Biographie </b>
+- Name: Simon Blume
+- Alter: 35 Jahre
+- Wohnt in Prenzlauer Berg, Berlin
+- Hat einen hippen Laden, in dem er vegane, Bio-Spielzeuge für Kinder verkauft
+ 
+<b> Verkaufsverhalten </b>
+- Will seine Produkte online verkaufen
+- Wenn er ein neues Produkt entwirft, möchte er dieses mit Bildern und Produktbeschreibung einpflegen
+- Produkte die er nicht mehr herstellt, entfernt er wieder aus seinem Katalog
+
+<b> Paint-Points </b>
+- Will keinen Aufwand einer eigenen Shopsoftware
+- Hasst es, wenn er nicht weiß, wieviel Geld er bekommt und wieviel er an Amazon abtreten muss muss
+
+<b> Needs & Wishes </b>
+- Möchte das seine Produkte ohne viel Aufwand gut dargestellt werden
+- Will eine klare Anweisung, wie er seine Produkte dort einstellen kann
+- Möchte Beratung zum Verkaufsprozess
+- Möchte Produkte 
+
+#### 1.7.4) Persona 4: Lars Echterling 
+<b> Biographie </b>
+- Name: Lars Echterling
+- Alter: 54 Jahre
+- Auftragsbearbeiter bei DHL für den Bereich Amazon Deutschland Südwest
+- Zuständig für die Lieferungen, die von Amazon zu DHL reinkommen
+
+<b> Verhalten </b>
+- Benutzt DHL Programm, was die API von Amazon benutzt
+
+<b> Paint-Points </b>
+- Hasst es, wenn sein Programm lange lädt
+- Wenn eine Bestellung falsch ausgeliefert wird, bekommt Ärger
+
+<b> Needs & Wishes </b>
+- Will ohne viel Aufwand seinen Job machen
+- Will mit Mitarbeitern bei Amazon direkt sprechen können bei Problemen
+- Kommunikation mit Amazon soll gut funktionieren
+- Möchte eine gute Integration mit seinem DHL Programm
 
 ## 2) Domänen
 ### 2.1) Shopoberfläche
