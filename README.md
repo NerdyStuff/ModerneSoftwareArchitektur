@@ -666,7 +666,7 @@ Honeypots können genutzt werden um von Angreifern zu lernen.
 ## 13) Evolutionäre Architekturen
 
 ## 14) Architektur und Legacy Applications
-
+Um Legacy Applications müssen wir uns zur Zeit noch keine Gedanken machen, da unser System neu ist und somit noch keine älteren Anwendungen mit bedenken müssen. Aus Benutzerseite muss sicher gegangen werden, dass ältere Zugriffsmethoden wie IE funktionieren.
 
 # Gruppe
 - Tizian Groß
