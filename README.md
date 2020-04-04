@@ -516,6 +516,19 @@ Diese Architektur wollen wir mit einer Cloud Native Architektur verbinden. Wir s
 Mit dieser kombinierten Architektur sind wir sowohl für die Gegenwart wie auch für die Zukunft gut aufgestellt.
 
 ## 8) Performance
+Performance ist für unsere global verwendete Webanwendung stetig zu verbessern. Dabei gehen wir systematisch vor und beziehen unsere Entwicklerteams mit ein.
+
+###Profile
+Anhand der Kennzahlen Durchsatz, Bandbreite, Last und Auslastung wird die Performance der Anwendung gemessen.
+
+###Analyse
+In der Analyse suchen wir die Schwachstellen unserer Software (Bottlenecks) heraus. Meist sind die Fehler in der Anwendung vorhanden. Andere häufige Performance Schwachstellen sind die Datenbank, die CPU oder das Netzwerk. 
+
+###Implement
+Die Ergebnisse aus der Analyse werden durch unsere Entwicklerteams umgesetzt.
+
+###Monitor
+Durch weiteres beobachten unserer Kennzahlen schauen wir auf weitere Schwachstellen. Auch bei der Behebung der Schwachstellen können neue Schwachstellen entstehen, die wir somit ebenfalls aufdecken.
 
 ## 9) Security
 ### 9.1) Abwehren von Angriffen:
