@@ -76,9 +76,8 @@ Repository für moderne Softwarearchitektur
 9.13) Identity und Access Management<br>
 10) [Dokumentation](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#10-dokumentation) (TBD)
 11) [DevOps und Softwarearchitektur](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#11-devops-und-softwarearchitektur)(TBD)
-12) [Die Skills eines Softwarearchitekten](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#12-die-skills-eines-softwarearchitekten)(TBD)
-13) [Evolutionäre Architekturen](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#13-evolution%C3%A4re-architekturen)(TBD)
-14) [Architektur und Legacy Applications](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#15-architektur-und-legacy-applications)
+12) [Evolutionäre Architekturen](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#13-evolution%C3%A4re-architekturen)
+13) [Architektur und Legacy Applications](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#15-architektur-und-legacy-applications)
 
 
 ## 1) Requirements
@@ -658,17 +657,17 @@ Server Wartungen durchgeführt werden, Logs angelegt werden und regelmäßig gep
 Honeypots können genutzt werden um von Angreifern zu lernen.
 
 ## 10) Dokumentation
+Das System sollte sowohl mit den Anforderung und Requierments gut dokumentiert sein, wie auch der Code und die Architektur gut dokumentiert werden soll. 
+Das ist sehr wichtig.
 
 ## 11) DevOps und Softwarearchitektur
 
-## 12) Die Skills eines Softwarearchitekten
-
-## 13) Evolutionäre Architekturen
+## 12) Evolutionäre Architekturen
 Das System muss so gebaut werden, dass es auf Veränderungen vorbereitet ist und leicht erweitert werden kann. Hierzu ist unsere Microservice-Arhcitektur sehr passend. Modifikationen werden mithilfe von Fitness-Funktionen überwacht und bewertet.
 
 Zum Beispiel könnte das über Performance Anforderungen geregelt werden. Wenn nach einer Archtiketur Modifikation eine Performance Anforderung mit dem dazugehörigen Test nicht erfüllt wird, so muss die Änderung überarbeitet werden. So kann stetig unsere Services verbessern und dabei die Anforderungen im Blick halten.
 
-## 14) Architektur und Legacy Applications
+## 13) Architektur und Legacy Applications
 Um Legacy Applications müssen wir uns zur Zeit noch keine Gedanken machen, da unser System neu ist und somit noch keine älteren Anwendungen mit bedenken müssen. Aus Benutzerseite muss sicher gegangen werden, dass ältere Zugriffsmethoden wie IE funktionieren.
 
 Da unsere Anwendugn wahrscheinlich länger erhalten bleiben wird, legen wir besonderen Wert darauf, unseren Code testbar und auch in der Zukunft wartbar zu machen. Auch soll darauf geachtet werden, dass der Code möglichst verständlich und sauber ist, sodass dieses Produkt noch in Zukunft erweitert und gewartet werden kann.
