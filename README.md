@@ -675,7 +675,7 @@ Zum Beispiel könnte das über Performance Anforderungen geregelt werden. Wenn n
 ## 13) Architektur und Legacy Applications
 Um Legacy Applications müssen wir uns zur Zeit noch keine Gedanken machen, da unser System neu ist und somit noch keine älteren Anwendungen mit bedenken müssen. Aus Benutzerseite muss sicher gegangen werden, dass ältere Zugriffsmethoden wie IE funktionieren.
 
-Da unsere Anwendugn wahrscheinlich länger erhalten bleiben wird, legen wir besonderen Wert darauf, unseren Code testbar und auch in der Zukunft wartbar zu machen. Auch soll darauf geachtet werden, dass der Code möglichst verständlich und sauber ist, sodass dieses Produkt noch in Zukunft erweitert und gewartet werden kann.
+Da unsere Anwendung wahrscheinlich länger erhalten bleiben wird, legen wir besonderen Wert darauf, unseren Code testbar und auch in der Zukunft wartbar zu machen. Auch soll darauf geachtet werden, dass der Code möglichst verständlich und sauber ist, sodass dieses Produkt noch in Zukunft erweitert und gewartet werden kann.
 
 # Gruppe
 - Tizian Groß
