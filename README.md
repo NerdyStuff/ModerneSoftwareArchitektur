@@ -479,6 +479,33 @@ falls Architektur bearbeitet werden muss -> weiter zu schritt 2 <br>
 
 Der Lösungskandidat wurde in der Skizze gezeigt und wird in die Gesamtarchitektur eingefügt.
 
+### Iteration 3
+
+#### Schritt 2
+In diesem Schritt sollen wichtige Key Scenarios identifiziert werden, die unsere Platform abdecken muss.
+
+
+#### Schritt 3
+In diesem Schritt soll eine Übersicht der Anwendungen erstellt, die diese Ziele erreichen.
+
+Anwendungstyp: Website<br>
+Einschränkungen: Schnell, Sicher, Benutzerfreundlich<br>
+Zielumgebung: Website auf Userseite, Mobil oder Desktop<br>
+Architekturstil: Microservices, Client-Server, Redundante Server<br>
+Relevante Technologien: Docker, Kubernetes, Client-Server, HTTPS, UI5, Datenbanken<br>
+**Skizze:**<br>
+
+
+#### Schritt 4
+In diesem Schritt werden die wesentlichen Hindernisse dieser Architektur beschrieben.
+
+
+##### Schritt 5
+In diesem Schritt werden Lösungskandidaten definiert 
+
+falls Architektur bearbeitet werden muss -> weiter zu schritt 2 <br>
+
+
 
 ## 5) Software Entwicklung Prinzipien und Praktiken
 Folgende Prinzipien und Praktiken sollen für eine Qualitätserhöhung, Betriebsvereinfachung, Erhöhung der Wiederverwendbarkeit, Fehlererkennung und einfacheres Testen des Softwaresystems umgesetzt werden:
