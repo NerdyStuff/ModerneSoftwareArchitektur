@@ -438,7 +438,8 @@ Relevante Technologien: Docker, Kubernetes, Client-Server, HTTPS, UI5, Datenbank
 #### Schritt 4
 In diesem Schritt werden die wesentlichen Hindernisse dieser Architektur beschrieben.
 
-(mit Qualitätsattributen)
+Als Hindernis könnte hier die Anbindung und Kommunikation der Partnerunternehmen wie die Logistikdienstleister und evtl. Lagerdienstleister anzusehen sein.
+Auch ist besonders im Bezug auf größe des System die Performance als Hindernis anzusehen.
 
 ##### Schritt 5
 In diesem Schritt werden Lösungskandidaten definiert 
@@ -446,7 +447,7 @@ In diesem Schritt werden Lösungskandidaten definiert
 falls Architektur bearbeitet werden muss -> weiter zu schritt 2
 falls die Lösung angenommen wird -> weiter zu schritt 1
 
-.
+Lösungsvorschlag siehe Skizze.
 
 
 ## 5) Software Entwicklung Prinzipien und Praktiken
