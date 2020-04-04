@@ -80,10 +80,18 @@ Repository für moderne Softwarearchitektur
 12) [Evolutionäre Architekturen](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#13-evolution%C3%A4re-architekturen)
 13) [Architektur und Legacy Applications](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#15-architektur-und-legacy-applications)
 
+# Business Story
+In Zeiten einer von Corona geplagten Welt, in der man nicht mehr gemütlich am Wochenende shoppen gehen kann, realisiert man, wie abhängig man von physischen Geschäften ist.
+Wir haben uns gefragt: "Warum eigentlich?".
+<p>
+In Tagen des Internets und globaler Vernetzung ist die Grundlage für ein digitales Geschäft  bereits geschaffen. 
+Mit Amazon wollen wir Menschen weltweit die Möglichkeit geben, bequem und ohne das Haus verlassen zu müssen Produkte aus der ganzen Welt zu kaufen.
+Ein zentraler Sammelpunkt an dem beinahe alle vorstellbaren Produkte dieser Welt verfügbar sind, macht Einkaufen nicht nur einfacher und schneller, sondern auch sicherer.
+</p>
 
 ## 1) Requirements
 
-### 1.1) Kernkompetenzen des Online-shoppens:
+### 1.1) Kernkompetenzen des Online-Shoppens:
 
 Wie ist ihr derzeitiges Einkaufsverhalten?
 - *Produkt, dass gekauft werden soll in Werbekatalogen suchen, die per Post geschickt wurden. Dann in einen Laden in der nähe gehen und mit Bargeld bezahlen.*
@@ -400,6 +408,45 @@ Graceful Degradation of Service → siehe Fehlerbehebung
 - Laufende Tests, kann mit Fehlererkennung / Sanity Checks kombiniert werden
 
 ## 4) Softwarearchitektur Design
+
+Wir benutzen zur Gestaltung der Architektur die Technik von Microsoft für Architektur und Design.
+Bei dieser Planung wurde Top-Down Planning benutzt, da dies bei so großen komplexen Projekten sinnvoller ist.
+
+### Iteration 1
+
+#### Schritt 1
+In Schritt 1 legen wir das grundlegende Ziel der aktuellen Iteration fest.
+
+In dieser Iteration wollen wir die grobe Architektur unsere Platform festlegen sowie Abhängigkeiten von Drittsystemen.
+
+#### Schritt 2
+In diesem Schritt sollen wichtige Key Scenarios identifiziert werden, die unsere Platform abdecken muss.
+
+Produkte kaufen, Verfügbarkeit auf der Welt, Lieferung nach Hause
+
+#### Schritt 3
+In diesem Schritt soll eine Übersicht der Anwendungen erstellt, die diese Ziele erreichen.
+
+Anwendungstyp: Website
+Einschränkungen: Schnell, Sicher, Benutzerfreundlich
+Zielumgebung: Website auf Userseite, Mobil oder Desktop
+Architekturstil: Microservices, Client-Server
+Relevante Technologien: Docker, Kubernetes, Client-Server, HTTPS, UI5, Datenbanken
+Skizze:
+
+#### Schritt 4
+In diesem Schritt werden die wesentlichen Hindernisse dieser Architektur beschrieben.
+
+(mit Qualitätsattributen)
+
+##### Schritt 5
+In diesem Schritt werden Lösungskandidaten definiert 
+
+falls Architektur bearbeitet werden muss -> weiter zu schritt 2
+falls die Lösung angenommen wird -> weiter zu schritt 1
+
+.
+
 
 ## 5) Software Entwicklung Prinzipien und Praktiken
 Folgende Prinzipien und Praktiken sollen für eine Qualitätserhöhung, Betriebsvereinfachung, Erhöhung der Wiederverwendbarkeit, Fehlererkennung und einfacheres Testen des Softwaresystems umgesetzt werden:
