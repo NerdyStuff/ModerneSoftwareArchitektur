@@ -40,7 +40,7 @@ Repository für moderne Softwarearchitektur
 3.4) Portability<br>
 3.5) Interoperability<br>
 3.6) Testability<br>
-4) [Softwarearchitektur Design](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#4-softwarearchitektur-design) (Benno + ALLE ANDEREN WICHTIG)
+4) [Softwarearchitektur Design](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#4-softwarearchitektur-design)
 5) [Software Entwicklung Prinzipien und Praktiken](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#5-software-entwicklung-prinzipien-und-praktiken)<br>
 5.1) Lose Kopplung<br>
 5.2) Hohe Kohäsion<br>
