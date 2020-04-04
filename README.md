@@ -666,6 +666,8 @@ Honeypots können genutzt werden um von Angreifern zu lernen.
 ## 13) Evolutionäre Architekturen
 Das System muss so gebaut werden, dass es auf Veränderungen vorbereitet ist und leicht erweitert werden kann. Hierzu ist unsere Microservice-Arhcitektur sehr passend. Modifikationen werden mithilfe von Fitness-Funktionen überwacht und bewertet.
 
+Zum Beispiel könnte das über Performance Anforderungen geregelt werden. Wenn nach einer Archtiketur Modifikation eine Performance Anforderung mit dem dazugehörigen Test nicht erfüllt wird, so muss die Änderung überarbeitet werden. So kann stetig unsere Services verbessern und dabei die Anforderungen im Blick halten.
+
 ## 14) Architektur und Legacy Applications
 Um Legacy Applications müssen wir uns zur Zeit noch keine Gedanken machen, da unser System neu ist und somit noch keine älteren Anwendungen mit bedenken müssen. Aus Benutzerseite muss sicher gegangen werden, dass ältere Zugriffsmethoden wie IE funktionieren.
 
