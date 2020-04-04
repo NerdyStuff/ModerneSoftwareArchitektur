@@ -664,6 +664,7 @@ Honeypots können genutzt werden um von Angreifern zu lernen.
 ## 12) Die Skills eines Softwarearchitekten
 
 ## 13) Evolutionäre Architekturen
+Das System muss so gebaut werden, dass es auf Veränderungen vorbereitet ist und leicht erweitert werden kann. Hierzu ist unsere Microservice-Arhcitektur sehr passend. Modifikationen werden mithilfe von Fitness-Funktionen überwacht und bewertet.
 
 ## 14) Architektur und Legacy Applications
 Um Legacy Applications müssen wir uns zur Zeit noch keine Gedanken machen, da unser System neu ist und somit noch keine älteren Anwendungen mit bedenken müssen. Aus Benutzerseite muss sicher gegangen werden, dass ältere Zugriffsmethoden wie IE funktionieren.
