@@ -444,8 +444,7 @@ Auch ist besonders im Bezug auf größe des System die Performance als Hindernis
 ##### Schritt 5
 In diesem Schritt werden Lösungskandidaten definiert 
 
-falls Architektur bearbeitet werden muss -> weiter zu schritt 2 <br>
-falls die Lösung angenommen wird -> weiter zu schritt 1 <br>
+falls Architektur weiter bearbeitet werden muss -> weiter zu schritt 2 <br>
 
 Lösungsvorschlag siehe Skizze.
 
@@ -472,12 +471,10 @@ Relevante Technologien: Docker, Kubernetes, Client-Server, HTTPS, UI5, Datenbank
 #### Schritt 4
 In diesem Schritt werden die wesentlichen Hindernisse dieser Architektur beschrieben.
 
-
 ##### Schritt 5
 In diesem Schritt werden Lösungskandidaten definiert 
 
 falls Architektur bearbeitet werden muss -> weiter zu schritt 2 <br>
-falls die Lösung angenommen wird -> weiter zu schritt 1 <br>
 
 
 ## 5) Software Entwicklung Prinzipien und Praktiken
