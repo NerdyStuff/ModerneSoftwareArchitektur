@@ -25,6 +25,7 @@ Repository für moderne Softwarearchitektur
 2.7) Lager<br>
 2.8) Produktekatalog<br>
 2.8.1) Anbieter<br>
+2.9) Schaubild<br>
 3) [Software Qualitätsattribute](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#3-software-qualit%C3%A4tsattribute)<br>
 3.1) Maintanability<br>
 3.2) Usability<br>
@@ -321,6 +322,9 @@ Weitere Punkte:
 #### 2.8.1) Anbieter
 - Große Anzahl an Anbietern für Produkte
 - Enger Kontakt mit Anbietern
+
+### 2.9) Schaubild
+![Domain Driven Design](https://github.com/NerdyStuff/ModerneSoftwareArchitektur/blob/master/Files/DDD.png)
 
 ## 3) Software Qualitätsattribute
 ### 3.1) Maintanability
