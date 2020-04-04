@@ -447,15 +447,14 @@ In diesem Schritt werden Lösungskandidaten definiert
 falls Architektur weiter bearbeitet werden muss -> weiter zu schritt 2 <br>
 
 Lösungsvorschlag siehe Skizze.
+Diese Skizze muss noch granularer definiert werden. Dazu wird als nächstes ein Blick auf den Annahmeserver geworfen.
 
 ### Iteration 2
 
-#### Schritt 1
-In Schritt 1 legen wir das grundlegende Ziel der aktuellen Iteration fest.
-
-
 #### Schritt 2
 In diesem Schritt sollen wichtige Key Scenarios identifiziert werden, die unsere Platform abdecken muss.
+
+Der User sendet eine Anfrage an Amazon, diese wird von einem Server angenommen, der aus einer großen Menge redundanter Server besteht. Dieser Server leitet dann die Anfrage auf verschiedene Microservices weiter und koordiniert diese.
 
 #### Schritt 3
 In diesem Schritt soll eine Übersicht der Anwendungen erstellt, die diese Ziele erreichen.
@@ -463,7 +462,7 @@ In diesem Schritt soll eine Übersicht der Anwendungen erstellt, die diese Ziele
 Anwendungstyp: Website<br>
 Einschränkungen: Schnell, Sicher, Benutzerfreundlich<br>
 Zielumgebung: Website auf Userseite, Mobil oder Desktop<br>
-Architekturstil: Microservices, Client-Server<br>
+Architekturstil: Microservices, Client-Server, Redundante Server<br>
 Relevante Technologien: Docker, Kubernetes, Client-Server, HTTPS, UI5, Datenbanken<br>
 **Skizze:**<br>
 
@@ -471,10 +470,14 @@ Relevante Technologien: Docker, Kubernetes, Client-Server, HTTPS, UI5, Datenbank
 #### Schritt 4
 In diesem Schritt werden die wesentlichen Hindernisse dieser Architektur beschrieben.
 
+Hier ist besonders die Kommunikation und Datenkonsistenz eine Herausforderung.
+
 ##### Schritt 5
 In diesem Schritt werden Lösungskandidaten definiert 
 
 falls Architektur bearbeitet werden muss -> weiter zu schritt 2 <br>
+
+Der Lösungskandidat wurde in der Skizze gezeigt und wird in die Gesamtarchitektur eingefügt.
 
 
 ## 5) Software Entwicklung Prinzipien und Praktiken
