@@ -444,8 +444,8 @@ Auch ist besonders im Bezug auf größe des System die Performance als Hindernis
 ##### Schritt 5
 In diesem Schritt werden Lösungskandidaten definiert 
 
-falls Architektur bearbeitet werden muss -> weiter zu schritt 2
-falls die Lösung angenommen wird -> weiter zu schritt 1
+falls Architektur bearbeitet werden muss -> weiter zu schritt 2 <br>
+falls die Lösung angenommen wird -> weiter zu schritt 1 <br>
 
 Lösungsvorschlag siehe Skizze.
 
