@@ -502,6 +502,16 @@ Architektur des Gesamtsystems
 
 ## 7) Moderne Architekturen
 
+Wir haben uns für folgende Architekturen entschieden:
+### Microservice-Architecture
+Wir haben uns für eine Microservice Architektur entschieden, da wir für unseren Anwendungsfall hier die meisten Vorteile sehen.
+Zum einen ist die leichte Erweiterbarkeit einer Microservice-Architektur für unseren Service sehr Vorteilhaft, da unsere Platform sich auch auf andere Bereiche erweitern will. (Stream, Neue Produkte, Angebote etc.) Außerdem ist uns Ausfallsicherheit sehr wichtig, so wie Geschwindigkeit und Skalierbarkeit, da wir mit einer hohen Benutzerzahl rechnen.
+
+### Cloud Native
+Diese Architektur wollen wir mit einer Cloud Native Architektur verbinden. Wir sind der meinung, dass wir über eine Cloud Architektur unsere Platform für die Zukunft bereit machen. So können wir sowohl Hyperscaler, also Saas Angebote nutzen um unsere Skalierbarkeit zu realisieren, als auch eine globale Verteilung erreichen.
+
+Mit dieser kombinierten Architektur sind wir sowohl für die Gegenwart wie auch für die Zukunft gut aufgestellt.
+
 ## 8) Performance
 
 ## 9) Security
