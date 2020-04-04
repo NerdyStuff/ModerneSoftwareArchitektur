@@ -25,6 +25,7 @@ Repository für moderne Softwarearchitektur
 2.7) Lager<br>
 2.8) Produktekatalog<br>
 2.8.1) Anbieter<br>
+2.9) Schaubild<br>
 3) [Software Qualitätsattribute](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#3-software-qualit%C3%A4tsattribute)<br>
 3.1) Maintanability<br>
 3.2) Usability<br>
@@ -74,11 +75,10 @@ Repository für moderne Softwarearchitektur
 9.11) Secure by Design<br>
 9.12) Kryptografie<br>
 9.13) Identity und Access Management<br>
-10) [Dokumentation](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#10-dokumentation) (TBD)
-11) [DevOps und Softwarearchitektur](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#11-devops-und-softwarearchitektur)(TBD)
-12) [Die Skills eines Softwarearchitekten](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#12-die-skills-eines-softwarearchitekten)(TBD)
-13) [Evolutionäre Architekturen](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#13-evolution%C3%A4re-architekturen)(TBD)
-14) [Architektur und Legacy Applications](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#15-architektur-und-legacy-applications) (TBD)
+10) [Dokumentation](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#10-dokumentation)
+11) [DevOps und Softwarearchitektur](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#11-devops-und-softwarearchitektur)
+12) [Evolutionäre Architekturen](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#13-evolution%C3%A4re-architekturen)
+13) [Architektur und Legacy Applications](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#15-architektur-und-legacy-applications)
 
 
 ## 1) Requirements
@@ -323,6 +323,9 @@ Weitere Punkte:
 - Große Anzahl an Anbietern für Produkte
 - Enger Kontakt mit Anbietern
 
+### 2.9) Schaubild
+![Domain Driven Design](https://github.com/NerdyStuff/ModerneSoftwareArchitektur/blob/master/Files/DDD.png)
+
 ## 3) Software Qualitätsattribute
 ### 3.1) Maintanability
 - modulare Architektur → gewährleistet einfache Erweiterbarkeit und verringert Komplexität
@@ -502,6 +505,16 @@ Architektur des Gesamtsystems
 
 ## 7) Moderne Architekturen
 
+Wir haben uns für folgende Architekturen entschieden:
+### Microservice-Architecture
+Wir haben uns für eine Microservice Architektur entschieden, da wir für unseren Anwendungsfall hier die meisten Vorteile sehen.
+Zum einen ist die leichte Erweiterbarkeit einer Microservice-Architektur für unseren Service sehr Vorteilhaft, da unsere Platform sich auch auf andere Bereiche erweitern will. (Stream, Neue Produkte, Angebote etc.) Außerdem ist uns Ausfallsicherheit sehr wichtig, so wie Geschwindigkeit und Skalierbarkeit, da wir mit einer hohen Benutzerzahl rechnen.
+
+### Cloud Native
+Diese Architektur wollen wir mit einer Cloud Native Architektur verbinden. Wir sind der meinung, dass wir über eine Cloud Architektur unsere Platform für die Zukunft bereit machen. So können wir sowohl Hyperscaler, also Saas Angebote nutzen um unsere Skalierbarkeit zu realisieren, als auch eine globale Verteilung erreichen.
+
+Mit dieser kombinierten Architektur sind wir sowohl für die Gegenwart wie auch für die Zukunft gut aufgestellt.
+
 ## 8) Performance
 
 ## 9) Security
@@ -638,7 +651,7 @@ Niedrig
 - Authentifizierung mittels Key / Tokens für interne Arbeiten
 
 ### 9.13) Identity und Access Management:
-- Verifizeirung der nutzer und des Servers mittels Zertifikaten
+- Verifizierung der Nutzer und des Servers mittels Zertifikaten
 - OAuth Token
 - Keys
 - Signaturen (z.B. PGP)
@@ -648,15 +661,21 @@ Server Wartungen durchgeführt werden, Logs angelegt werden und regelmäßig gep
 Honeypots können genutzt werden um von Angreifern zu lernen.
 
 ## 10) Dokumentation
+Das System sollte sowohl mit den Anforderung und Requierments gut dokumentiert sein, wie auch der Code und die Architektur gut dokumentiert werden soll. 
+Diese Dokumentation soll zentral gelagert und für alle zugänglich sein.
 
 ## 11) DevOps und Softwarearchitektur
+Durch die Nutzung von Continuous Integration und Automatisierungsprozessen kann schnell eine gute Software an den Endkunden ausgeliefert werden. Unsere Entwicklungsteams sollten aus Vertretern der verschiedenen Fachbereichen bestehen um die Fähigkeiten der Entwickler optimal nutzen zu können. Alle Fortschritte sollten messbar sein. Durch die Nutzung eines Backlogs oder Issues können die Fortschritte der einzelnen Komponenten genau bestimmt werden und Fehler schnell erkannt werden. Die Kundenbedürfnisse müssen während der Entwicklung mit einbezogen werden. Erfahrungen und Wissen können durch Dokumentationen und interne Schulungen ausgetauscht werden. Da wir microservices verwenden wollen können die einzelnen Interfaces genau getestet und gewartet werden. Zusätzlich können die Services automatisch in die Cloud deployed werden, was die Skalierbarkeit und die Verfügbarkeit gewährleistet. 
 
-## 12) Die Skills eines Softwarearchitekten
+## 12) Evolutionäre Architekturen
+Das System muss so gebaut werden, dass es auf Veränderungen vorbereitet ist und leicht erweitert werden kann. Hierzu ist unsere Microservice-Arhcitektur sehr passend. Modifikationen werden mithilfe von Fitness-Funktionen überwacht und bewertet.
 
-## 13) Evolutionäre Architekturen
+Zum Beispiel könnte das über Performance Anforderungen geregelt werden. Wenn nach einer Archtiketur Modifikation eine Performance Anforderung mit dem dazugehörigen Test nicht erfüllt wird, so muss die Änderung überarbeitet werden. So kann stetig unsere Services verbessern und dabei die Anforderungen im Blick halten.
 
-## 14) Architektur und Legacy Applications
+## 13) Architektur und Legacy Applications
+Um Legacy Applications müssen wir uns zur Zeit noch keine Gedanken machen, da unser System neu ist und somit noch keine älteren Anwendungen mit bedenken müssen. Aus Benutzerseite muss sicher gegangen werden, dass ältere Zugriffsmethoden wie IE funktionieren.
 
+Da unsere Anwendung wahrscheinlich länger erhalten bleiben wird, legen wir besonderen Wert darauf, unseren Code testbar und auch in der Zukunft wartbar zu machen. Auch soll darauf geachtet werden, dass der Code möglichst verständlich und sauber ist, sodass dieses Produkt noch in Zukunft erweitert und gewartet werden kann.
 
 # Gruppe
 - Tizian Groß
