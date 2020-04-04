@@ -651,7 +651,7 @@ Niedrig
 - Authentifizierung mittels Key / Tokens für interne Arbeiten
 
 ### 9.13) Identity und Access Management:
-- Verifizeirung der nutzer und des Servers mittels Zertifikaten
+- Verifizierung der Nutzer und des Servers mittels Zertifikaten
 - OAuth Token
 - Keys
 - Signaturen (z.B. PGP)
