@@ -662,10 +662,10 @@ Honeypots können genutzt werden um von Angreifern zu lernen.
 
 ## 10) Dokumentation
 Das System sollte sowohl mit den Anforderung und Requierments gut dokumentiert sein, wie auch der Code und die Architektur gut dokumentiert werden soll. 
-Das ist sehr wichtig.
+Diese Dokumentation soll zentral gelagert und für alle zugänglich sein.
 
 ## 11) DevOps und Softwarearchitektur
-Durch die Nutzung von Continuous Integration und Automatisierungsprozessen kann schnell eine gute Software an den Endkunden ausgeliefert werden. Unsere Entwicklungsteams sollten aus Vertretern der verschiedenen Fachbereichen bestehen um die Fähigkeiten der Entwickler optimal nutzen zu können. Alle Fortschritte sollten messbar sein. Durch die Nutzung eines Backlogs oder Issues können die Fortschritte der einzelnen Komponenten genau bestimmt werden und Fehler schnell erkannt werden. Die Kundenbedürfnisse müssen währende der Entwicklung mit einbezogen werden. Erfahrungen und Wissen können durch Dokumentationen und interne Schulungen ausgetauscht werden. Da wir microservices verwenden wollen können die einzelnen Interfaces genau getestet und gewartet werden. Zusätzlich könen die Services automatisch in die Cloud deployed werden, was die Skalierbarkeit und die Verfügbarkeit gewährleistet. 
+Durch die Nutzung von Continuous Integration und Automatisierungsprozessen kann schnell eine gute Software an den Endkunden ausgeliefert werden. Unsere Entwicklungsteams sollten aus Vertretern der verschiedenen Fachbereichen bestehen um die Fähigkeiten der Entwickler optimal nutzen zu können. Alle Fortschritte sollten messbar sein. Durch die Nutzung eines Backlogs oder Issues können die Fortschritte der einzelnen Komponenten genau bestimmt werden und Fehler schnell erkannt werden. Die Kundenbedürfnisse müssen während der Entwicklung mit einbezogen werden. Erfahrungen und Wissen können durch Dokumentationen und interne Schulungen ausgetauscht werden. Da wir microservices verwenden wollen können die einzelnen Interfaces genau getestet und gewartet werden. Zusätzlich können die Services automatisch in die Cloud deployed werden, was die Skalierbarkeit und die Verfügbarkeit gewährleistet. 
 
 ## 12) Evolutionäre Architekturen
 Das System muss so gebaut werden, dass es auf Veränderungen vorbereitet ist und leicht erweitert werden kann. Hierzu ist unsere Microservice-Arhcitektur sehr passend. Modifikationen werden mithilfe von Fitness-Funktionen überwacht und bewertet.
