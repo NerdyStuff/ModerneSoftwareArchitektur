@@ -417,21 +417,21 @@ Bei dieser Planung wurde Top-Down Planning benutzt, da dies bei so großen kompl
 #### Schritt 1
 In Schritt 1 legen wir das grundlegende Ziel der aktuellen Iteration fest.
 
-In dieser Iteration wollen wir die grobe Architektur unsere Platform festlegen sowie Abhängigkeiten von Drittsystemen.
+In dieser Iteration wollen wir die grobe Architektur unsere Plattform festlegen sowie Abhängigkeiten von Drittsystemen.
 
 #### Schritt 2
-In diesem Schritt sollen wichtige Key Scenarios identifiziert werden, die unsere Platform abdecken muss.
+In diesem Schritt sollen wichtige Key Scenarios identifiziert werden, die unsere Plattform abdecken muss.
 
-Produkte kaufen, Verfügbarkeit auf der Welt, Lieferung nach Hause
+Produkte kaufen, Verfügbarkeit auf der Welt, Lieferung nach Hause.
 
 #### Schritt 3
-In diesem Schritt soll eine Übersicht der Anwendungen erstellt, die diese Ziele erreichen.
+In diesem Schritt soll eine Übersicht der Anwendungen erstellt werden, die diese Ziele erreichen.
 
 Anwendungstyp: Website<br>
 Einschränkungen: Schnell, Sicher, Benutzerfreundlich<br>
 Zielumgebung: Website auf Userseite, Mobil oder Desktop<br>
 Architekturstil: Microservices, Client-Server<br>
-Relevante Technologien: Docker, Kubernetes, Client-Server, HTTPS, UI5, Datenbanken<br>
+Relevante Technologien: Docker, Kubernetes, Client-Server, HTTPS, Datenbanken<br>
 **Skizze:**<br>
 ![Erste Iteration](https://github.com/NerdyStuff/ModerneSoftwareArchitektur/blob/master/Files/Iterationen/Erste/ErsteIteration.png)
 
@@ -441,10 +441,10 @@ In diesem Schritt werden die wesentlichen Hindernisse dieser Architektur beschri
 Als Hindernis könnte hier die Anbindung und Kommunikation der Partnerunternehmen wie die Logistikdienstleister und evtl. Lagerdienstleister anzusehen sein.
 Auch ist besonders im Bezug auf größe des System die Performance als Hindernis anzusehen.
 
-##### Schritt 5
-In diesem Schritt werden Lösungskandidaten definiert 
+#### Schritt 5
+In diesem Schritt werden Lösungskandidaten definiert.
 
-falls Architektur weiter bearbeitet werden muss -> weiter zu schritt 2 <br>
+Falls Architektur weiter bearbeitet werden muss -> weiter zu Schritt 2 <br>
 
 Lösungsvorschlag siehe Skizze.
 Diese Skizze muss noch granularer definiert werden. Dazu wird als nächstes ein Blick auf den Annahmeserver geworfen.
@@ -452,7 +452,7 @@ Diese Skizze muss noch granularer definiert werden. Dazu wird als nächstes ein 
 ### Iteration 2
 
 #### Schritt 2
-In diesem Schritt sollen wichtige Key Scenarios identifiziert werden, die unsere Platform abdecken muss.
+In diesem Schritt sollen wichtige Key Scenarios identifiziert werden, die unsere Plattform abdecken muss.
 
 Der User sendet eine Anfrage an Amazon, diese wird von einem Server angenommen, der aus einer großen Menge redundanter Server besteht. Dieser Server leitet dann die Anfrage auf verschiedene Microservices weiter und koordiniert diese.
 
@@ -463,7 +463,7 @@ Anwendungstyp: Website<br>
 Einschränkungen: Schnell, Sicher, Benutzerfreundlich<br>
 Zielumgebung: Website auf Userseite, Mobil oder Desktop<br>
 Architekturstil: Microservices, Client-Server, Redundante Server<br>
-Relevante Technologien: Docker, Kubernetes, Client-Server, HTTPS, UI5, Datenbanken<br>
+Relevante Technologien: Docker, Kubernetes, Client-Server, HTTPS, Datenbanken<br>
 **Skizze:**<br>
 
 
@@ -472,39 +472,36 @@ In diesem Schritt werden die wesentlichen Hindernisse dieser Architektur beschri
 
 Hier ist besonders die Kommunikation und Datenkonsistenz eine Herausforderung.
 
-##### Schritt 5
-In diesem Schritt werden Lösungskandidaten definiert 
+#### Schritt 5
+In diesem Schritt werden Lösungskandidaten definiert.
 
-falls Architektur bearbeitet werden muss -> weiter zu schritt 2 <br>
+Falls Architektur bearbeitet werden muss -> weiter zu Schritt 2 <br>
 
 Der Lösungskandidat wurde in der Skizze gezeigt und wird in die Gesamtarchitektur eingefügt.
 
 ### Iteration 3
 
 #### Schritt 2
-In diesem Schritt sollen wichtige Key Scenarios identifiziert werden, die unsere Platform abdecken muss.
+In diesem Schritt sollen wichtige Key Scenarios identifiziert werden, die unsere Plattform abdecken muss.
 
 
 #### Schritt 3
-In diesem Schritt soll eine Übersicht der Anwendungen erstellt, die diese Ziele erreichen.
+In diesem Schritt soll eine Übersicht der Anwendungen erstellt werden, die diese Ziele erreichen.
 
 Anwendungstyp: Website<br>
 Einschränkungen: Schnell, Sicher, Benutzerfreundlich<br>
 Zielumgebung: Website auf Userseite, Mobil oder Desktop<br>
 Architekturstil: Microservices, Client-Server, Redundante Server<br>
-Relevante Technologien: Docker, Kubernetes, Client-Server, HTTPS, UI5, Datenbanken<br>
+Relevante Technologien: Docker, Kubernetes, Client-Server, HTTPS, Datenbanken<br>
 **Skizze:**<br>
-
 
 #### Schritt 4
 In diesem Schritt werden die wesentlichen Hindernisse dieser Architektur beschrieben.
 
-
-##### Schritt 5
+#### Schritt 5
 In diesem Schritt werden Lösungskandidaten definiert 
 
 falls Architektur bearbeitet werden muss -> weiter zu schritt 2 <br>
-
 
 
 ## 5) Software Entwicklung Prinzipien und Praktiken
