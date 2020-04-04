@@ -310,7 +310,7 @@ Weitere Punkte:
 - FedEx
 - etc.
 
-### 2.7) Lager
+### 2.7) Lagerveraltung
 - Chaotische Lagerhaltung für Platzoptimierung
 - Automatisertes Lager
 - Lagerhaltungssystem meldet Lagerbestände
