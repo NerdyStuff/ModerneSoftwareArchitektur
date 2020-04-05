@@ -1,6 +1,8 @@
 # Moderne Softwarearchitektur
 Repository für moderne Softwarearchitektur
 
+Präsentation: https://docs.google.com/presentation/d/1_yt3ar8iu2F7N605o76C4I5c6zrK9IS6SiFBhvYivCk/edit#slide=id.g72c1398093_0_41
+
 # Inhaltsverzeichnis
 1) [Requirements](https://github.com/NerdyStuff/ModerneSoftwareArchitektur/blob/master/README.md#1-requirements)<br>
 1.1) Kernkompetenzen des Online-shoppens<br>
