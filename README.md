@@ -629,7 +629,7 @@ Diese Architektur wollen wir mit einer Cloud Native Architektur verbinden. Wir s
 Mit dieser kombinierten Architektur sind wir sowohl für die Gegenwart wie auch für die Zukunft gut aufgestellt.
 
 ## 8) Performance
-Performance ist für unsere global verwendete Webanwendung stetig zu verbessern. Dabei gehen wir systematisch vor und beziehen unsere Entwicklerteams mit ein.
+Performance ist für unsere global verwendete Software stetig zu verbessern. Hierbei sind die in den Qualitätsattributen definierten Forderungen zu erreichen. Unsere Entwicklerteams verwenden ein systematisches Vorgehen.
 
 ### Profile
 Anhand der Kennzahlen Durchsatz, Bandbreite, Last und Auslastung wird die Performance der Anwendung gemessen.
