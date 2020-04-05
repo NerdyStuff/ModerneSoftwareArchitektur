@@ -254,8 +254,7 @@ Weitere Punkte:
 <b> Needs & Wishes </b>
 - Möchte das seine Produkte ohne viel Aufwand gut dargestellt werden
 - Will eine klare Anweisung, wie er seine Produkte dort einstellen kann
-- Möchte Beratung zum Verkaufsprozess
-- Möchte Produkte 
+- Möchte Beratung zum Verkaufsprozess 
 
 #### 1.7.4) Persona 4: Lars Echterling 
 <b> Biographie </b>
