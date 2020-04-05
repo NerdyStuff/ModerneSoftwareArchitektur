@@ -465,6 +465,7 @@ Zielumgebung: Website auf Userseite, Mobil oder Desktop<br>
 Architekturstil: Microservices, Client-Server, Redundante Server<br>
 Relevante Technologien: Docker, Kubernetes, Client-Server, HTTPS, Datenbanken<br>
 **Skizze:**<br>
+![Zweite Iteration](https://github.com/NerdyStuff/ModerneSoftwareArchitektur/blob/master/Files/Iterationen/Zweite/Gesamt2.png)
 
 
 #### Schritt 4
@@ -494,6 +495,7 @@ Zielumgebung: Website auf Userseite, Mobil oder Desktop<br>
 Architekturstil: Microservices, Client-Server, Redundante Server<br>
 Relevante Technologien: Docker, Kubernetes, Client-Server, HTTPS, Datenbanken<br>
 **Skizze:**<br>
+![Dritte Iteration](https://github.com/NerdyStuff/ModerneSoftwareArchitektur/blob/master/Files/Iterationen/Dritte/Gesamt3.png)
 
 #### Schritt 4
 In diesem Schritt werden die wesentlichen Hindernisse dieser Architektur beschrieben.
