@@ -255,11 +255,8 @@ Weitere Punkte:
 <b> Needs & Wishes </b>
 - Möchte dass seine Produkte ohne viel Aufwand gut dargestellt werden
 - Will eine klare Anweisung, wie er seine Produkte dort einstellen kann
-<<<<<<< HEAD
 - Möchte Beratung zum Verkaufsprozess 
-=======
-- Möchte Beratung zum Verkaufsprozess
->>>>>>> rechtschreibkorrektur #1
+
 
 #### 1.7.4) Persona 4: Lars Echterling 
 <b> Biographie </b>
@@ -344,11 +341,11 @@ Weitere Punkte:
 
 ## 3) Software Qualitätsattribute
 ### 3.1) Maintanability
-- modulare Architektur → gewährleistet einfache Erweiterbarkeit und verringert Komplexität
+- Microservice Architektur → gewährleistet einfache Erweiterbarkeit und verringert Komplexität
 - Komponenten erfüllen genau eine definierte Funktion
 - Kommunikation über einheitliche Schnittstellen
 - Schnittstellen dürfen entweder gar nicht oder nur global verändert werden, sodass jede Komponente mit einer gleichen Schnittstellendefinition arbeitet
-Veränderungen eines Komponenten (z.B.: Fehlerkorrekturen) haben keinen Einfluss auf andere Komponenten. 
+- Veränderungen eines Komponenten (z.B.: Fehlerkorrekturen) haben keinen Einfluss auf andere Komponenten. 
 
 ### 3.2) Usability
 #### 3.2.1) Learnability
@@ -358,7 +355,7 @@ Veränderungen eines Komponenten (z.B.: Fehlerkorrekturen) haben keinen Einfluss
 - Guides / Touren für Erstnutzer
 #### 3.2.2) Accessibility
 - Web-Application, Mobile-Application für Android, IOS und Windows
-- Breadcrumbs unterstützen Navigation, sodass s
+- Breadcrumbs unterstützen Navigation
 - Einheitliche, lesbare Farben mit High-Contrast Modus (+ Darkmode)
 - Mehrsprachigkeit und Anpassung an kulturelle Konventionen nach i18n 
 #### 3.3.3) Feedback
@@ -493,15 +490,15 @@ Der Lösungskandidat wurde in der Skizze gezeigt und wird in die Gesamtarchitekt
 #### Schritt 2
 In diesem Schritt sollen wichtige Key Scenarios identifiziert werden, die unsere Plattform abdecken muss.
 
-
+Es wird ein weiter Blick auf Data Warehouse der Lagerhaltung geworfen. Diese wird genauer definiert.
 #### Schritt 3
 In diesem Schritt soll eine Übersicht der Anwendungen erstellt werden, die diese Ziele erreichen.
 
-Anwendungstyp: Website<br>
-Einschränkungen: Schnell, Sicher, Benutzerfreundlich<br>
-Zielumgebung: Website auf Userseite, Mobil oder Desktop<br>
-Architekturstil: Microservices, Client-Server, Redundante Server<br>
-Relevante Technologien: Docker, Kubernetes, Client-Server, HTTPS, Datenbanken<br>
+Anwendungstyp: ERP /BW Anwendung<br>
+Einschränkungen: Schnell, Sicher, Benutzerfreundlich, Hohe Verfügbarkeit<br>
+Zielumgebung: Desktop<br>
+Architekturstil: Microservices, Redundante Server<br>
+Relevante Technologien: Docker, Kubernetes, Datenbanken, Business Warehouse<br>
 **Skizze:**<br>
 ![Dritte Iteration](https://github.com/NerdyStuff/ModerneSoftwareArchitektur/blob/master/Files/Iterationen/Dritte/Gesamt3.png)
 
@@ -513,6 +510,7 @@ In diesem Schritt werden Lösungskandidaten definiert
 
 falls Architektur bearbeitet werden muss -> weiter zu schritt 2 <br>
 
+Der Lösungskandidat wurde in die Skizze eingefügt
 
 ## 5) Software Entwicklung Prinzipien und Praktiken
 Folgende Prinzipien und Praktiken sollen für eine Qualitätserhöhung, Betriebsvereinfachung, Erhöhung der Wiederverwendbarkeit, Fehlererkennung und einfacheres Testen des Softwaresystems umgesetzt werden:
