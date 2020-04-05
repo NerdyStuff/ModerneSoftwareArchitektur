@@ -124,8 +124,8 @@ Was wäre, wenn Amazon Ihnen gewährleistet, dass ein Produkt verfügbar ist und
 Wie würden Sie sich vorstellen ein Buch zu kaufen?
 - *Eingabe in einer Leiste zum Suchen. Dann wird das Buch angezeigt. Dann kann es gekauft werden.*
 
-Würden Sie nach der Nutzun des Dienstes eine Bewertung abgeben?
-- *Ja, wenn eine Errinnerung dafür kommt.*
+Würden Sie nach der Nutzung des Dienstes eine Bewertung abgeben?
+- *Ja, wenn eine Erinnerung dafür kommt.*
 
 Wie soll der Bezahlvorgang aussehen?
 - *Frage nach der Kreditkarte, oder bezahlen mit PayPal, Vorkasse oder per SEPA.*
@@ -136,11 +136,11 @@ Würden sie für eine zusätzliche Dienstleistung, dass ein Produkt schneller ko
 Wie viel Geld würden Sie maximal dafür ausgeben pro Jahr?
 - *50 bis 60 Euro*
  
-Wie stellen sich die Suche vor?
+Wie stellen Sie sich die Suche vor?
 - *Es soll nach Kategorien und relevanten Ergebnissen gefiltert werden können. Relevante Ergebnisse sollen angezeigt werden.*
 
 Gibt es noch weitere Suchfilter, die Sie gerne hätten?
-- *Filtern nach Preis, Produktspezisischen Eigenschaften, Marke, Sprache, Bewertung, ISBN soll möglich sein.*
+- *Filtern nach Preis, produktspezifischen Eigenschaften, Marke, Sprache, Bewertung, ISBN soll möglich sein.*
 
 Weitere Punkte:
 *Bestellungen sollen in Historie angezeigt werden, Retouren sollen einfach sein, Lieferverfolgunng, Stornierung, hohe Kulanz*
@@ -154,7 +154,7 @@ Weitere Punkte:
 - Bestellhistorie soll sichtbar sein
 - Interfaces zu Post, DHL, Verkäufern und deren Systemen (Oberflächen), zum Kunden
 - Anzeige von verschiedenen Produkten
-- Suche von bestellbaren Produkten
+- Suche von bestellbaren Produkten mit Filtern und Kriterien
 - Stornieren von Produkten
 - Rücksenden von Produkten
 
@@ -186,6 +186,7 @@ Weitere Punkte:
 - Verbot für Minderjährige einen Kauf zu tätigen
 - Einhalten der Zollbedingungen für die jeweiligen Länder
 - Einhaltung der Verträge mit Lieferdienstleistern und Zahlungsdienstleistern
+- Filtern von nicht angemessenen und illegalen Inhalten & Produkten
 
 ### 1.7) Personas
 #### 1.7.1) Persona 1: Karen Kaufer
@@ -195,7 +196,7 @@ Weitere Punkte:
 - Deutsch, geringe Englisch Kenntnisse
 - Verheiratet, zwei Kinder
 - Buchhalterin bei einem mittelständigen Unternehmen, durchschnittliches Einkommen
-- Kein tiefgründig technisches Wissen, kann aber problemlos das Internet navigieren und mit Computern umgehen
+- Kein tiefgründiges technisches Wissen, kann aber problemlos das Internet navigieren und mit Computern umgehen
 
 <b> Einkaufsverhalten </b>
 - Impulsivkäuferin, nutzt Website, um sich Angebote anzugucken
@@ -226,7 +227,7 @@ Weitere Punkte:
 <b> Einkaufsverhalten </b>
 - Hat konkrete Vorstellung von Produkten, die er kaufen möchte
 - Benötigt umfassende und detailierte Beschreibungen von Produkten, um zu überprüfen, ob Produkt mit seinen Vorstellungen übereinstimmt
-- Möchte vor dem Kauf Rezensionen andere Kunden lesen
+- Möchte vor dem Kauf Rezensionen anderer Kunden lesen
 - Bezahlt mit Lastschrift
 
 <b> Paint-Points </b>
@@ -252,9 +253,13 @@ Weitere Punkte:
 - Hasst es, wenn er nicht weiß, wieviel Geld er bekommt und wieviel er an Amazon abtreten muss muss
 
 <b> Needs & Wishes </b>
-- Möchte das seine Produkte ohne viel Aufwand gut dargestellt werden
+- Möchte dass seine Produkte ohne viel Aufwand gut dargestellt werden
 - Will eine klare Anweisung, wie er seine Produkte dort einstellen kann
+<<<<<<< HEAD
 - Möchte Beratung zum Verkaufsprozess 
+=======
+- Möchte Beratung zum Verkaufsprozess
+>>>>>>> rechtschreibkorrektur #1
 
 #### 1.7.4) Persona 4: Lars Echterling 
 <b> Biographie </b>
@@ -268,7 +273,7 @@ Weitere Punkte:
 
 <b> Paint-Points </b>
 - Hasst es, wenn sein Programm lange lädt
-- Wenn eine Bestellung falsch ausgeliefert wird, bekommt Ärger
+- Wenn eine Bestellung falsch ausgeliefert wird, bekommt er Ärger
 
 <b> Needs & Wishes </b>
 - Will ohne viel Aufwand seinen Job machen
@@ -306,6 +311,7 @@ Weitere Punkte:
 ### 2.5) Buchhaltung
 - Keine Buchung ohne Beleg
 - Nutzen einer Softwareunterstüzung für die Buchhaltung
+- Externes Programm möglich
 - Automatisierung von Buchhaltungsprozessen
 
 ### 2.6) Versand
