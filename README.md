@@ -10,10 +10,10 @@ Repository für moderne Softwarearchitektur
 1.5) Business Requirements<br>
 1.6) Constraints<br>
 1.7) Personas<br>
-1.7.1) Persona 1: Karen Kaufer<br>
-1.7.2) Persona 2: Alan Turing<br>
-1.7.3) Persona 3: Simon Blume<br>
-1.7.4) Persona 4: Lars Echterling<br>
+ 1.7.1) Persona 1: Karen Kaufer<br>
+ 1.7.2) Persona 2: Alan Turing<br>
+ 1.7.3) Persona 3: Simon Blume<br>
+ 1.7.4) Persona 4: Lars Echterling<br>
 2) [Domänen](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#2-domänen)<br>
 2.1) Shopoberfläche<br>
 2.2) CRM + Kundenverwaltung<br>
