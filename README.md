@@ -97,12 +97,12 @@ Ein zentraler Sammelpunkt an dem beinahe alle vorstellbaren Produkte dieser Welt
 ### 1.1) Kernkompetenzen des Online-Shoppens:
 
 Wie ist ihr derzeitiges Einkaufsverhalten?
-- *Produkt, dass gekauft werden soll in Werbekatalogen suchen, die per Post geschickt wurden. Dann in einen Laden in der nähe gehen und mit Bargeld bezahlen.*
+- *Produkt, dass gekauft werden soll in Werbekatalogen suchen, die per Post geschickt wurden. Dann in einen Laden in der Nähe gehen und mit Bargeld bezahlen.*
 
 Wo sind die größten Probleme im derzeitigem Kaufverhalten?
 - *Die physische Distanz zum Geschäft ist groß.*
 - *Die Produktauswahl dauert lange.*
-- *Die öffnungszeiten sind ein Problem.*
+- *Die Öffnungszeiten sind ein Problem.*
 
 Finden Sie spezielle Produkte auf Anhieb im Geschäft?
 - *Nein, nicht in jedem, vorallem Abends nicht, wenn alles ausverkauft ist.*
@@ -122,7 +122,7 @@ Was wäre, wenn Amazon Ihnen gewährleistet, dass ein Produkt verfügbar ist und
 ### 1.2) Vorstellungen zur Plattform:
 
 Wie würden Sie sich vorstellen ein Buch zu kaufen?
-- *Eingabe in einer Leiste zum suchen. Dann wird das Buch angezeigt. Dann kann es gekauft werden.*
+- *Eingabe in einer Leiste zum Suchen. Dann wird das Buch angezeigt. Dann kann es gekauft werden.*
 
 Würden Sie nach der Nutzun des Dienstes eine Bewertung abgeben?
 - *Ja, wenn eine Errinnerung dafür kommt.*
