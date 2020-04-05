@@ -10,10 +10,10 @@ Repository für moderne Softwarearchitektur
 1.5) Business Requirements<br>
 1.6) Constraints<br>
 1.7) Personas<br>
- 1.7.1) Persona 1: Karen Kaufer<br>
- 1.7.2) Persona 2: Alan Turing<br>
- 1.7.3) Persona 3: Simon Blume<br>
- 1.7.4) Persona 4: Lars Echterling<br>
+ 1.7.1) Persona 1: Karen Kaufer<br>
+ 1.7.2) Persona 2: Alan Turing<br>
+ 1.7.3) Persona 3: Simon Blume<br>
+ 1.7.4) Persona 4: Lars Echterling<br>
 2) [Domänen](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#2-domänen)<br>
 2.1) Shopoberfläche<br>
 2.2) CRM + Kundenverwaltung<br>
@@ -21,26 +21,29 @@ Repository für moderne Softwarearchitektur
 2.4) Zahlungssystem<br>
 2.5) Buchhaltung<br>
 2.6) Versand<br>
-2.6.1) Versanddienstleister<br>
+ 2.6.1) Versanddienstleister<br>
 2.7) Lager<br>
 2.8) Produktekatalog<br>
-2.8.1) Anbieter<br>
+ 2.8.1) Anbieter<br>
 2.9) Schaubild<br>
 3) [Software Qualitätsattribute](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#3-software-qualit%C3%A4tsattribute)<br>
 3.1) Maintanability<br>
 3.2) Usability<br>
-3.2.1) Learnability<br>
-3.2.2) Accessibility<br>
-3.3.3) Feedback<br> 
+ 3.2.1) Learnability<br>
+ 3.2.2) Accessibility<br>
+ 3.3.3) Feedback<br> 
 3.3) Availability<br>
-3.3.1) Fehlererkennung<br>
-3.3.2) Fehlerbehebung<br>
-3.3.3) Fehlervermeidung<br>
-3.3.4) Resilienz<br>
+ 3.3.1) Fehlererkennung<br>
+ 3.3.2) Fehlerbehebung<br>
+ 3.3.3) Fehlervermeidung<br>
+ 3.3.4) Resilienz<br>
 3.4) Portability<br>
 3.5) Interoperability<br>
 3.6) Testability<br>
 4) [Softwarearchitektur Design](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#4-softwarearchitektur-design)
+4.1) Erste Iteration
+4.2) Zweite Iteration
+4.3) Dritte Iteration
 5) [Software Entwicklung Prinzipien und Praktiken](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#5-software-entwicklung-prinzipien-und-praktiken)<br>
 5.1) Lose Kopplung<br>
 5.2) Hohe Kohäsion<br>
@@ -50,15 +53,15 @@ Repository für moderne Softwarearchitektur
 5.6) Dependency Injection<br>
 6) [Softwarearchitektur Patterns](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#6-softwarearchitektur-patterns)<br>
 6.1) MVC<br>
-6.1.1) Problemebeschreibung<br>
-6.1.2) Lösungsbeschreibung<br>
-6.1.3) Bewertung<br>
-6.1.4) Einsatzgebiete<br>
+ 6.1.1) Problemebeschreibung<br>
+ 6.1.2) Lösungsbeschreibung<br>
+ 6.1.3) Bewertung<br>
+ 6.1.4) Einsatzgebiete<br>
 6.2) Schichtenarchitektur<br>
-6.2.1) Problembeschreibung<br>
-6.2.3) Lösungsbeschreibung<br>
-6.2.4) Bewertung<br>
-6.2.5) Einsatzgebiete<br>
+ 6.2.1) Problembeschreibung<br>
+ 6.2.3) Lösungsbeschreibung<br>
+ 6.2.4) Bewertung<br>
+ 6.2.5) Einsatzgebiete<br>
 7) [Moderne Architekturen](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#7-moderne-architekturen)
 8) [Performance](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#8-performance)
 9) [Security](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#9-security)<br>
