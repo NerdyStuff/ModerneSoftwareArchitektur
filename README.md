@@ -724,14 +724,6 @@ Mittel
 
 Niedrig
 
-**Nachvollziehbarkeit:**
-
-Hoch
-
-Mittel
-
-Niedrig
-
 **Affected User:**
 
 Hoch
