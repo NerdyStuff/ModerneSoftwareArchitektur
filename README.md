@@ -42,10 +42,10 @@ Präsentation: https://docs.google.com/presentation/d/1_yt3ar8iu2F7N605o76C4I5c6
 3.4) Portability<br>
 3.5) Interoperability<br>
 3.6) Testability<br>
-4) [Softwarearchitektur Design](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#4-softwarearchitektur-design)
-4.1) Erste Iteration
-4.2) Zweite Iteration
-4.3) Dritte Iteration
+4) [Softwarearchitektur Design](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#4-softwarearchitektur-design)<br>
+4.1) Erste Iteration<br>
+4.2) Zweite Iteration<br>
+4.3) Dritte Iteration<br>
 5) [Software Entwicklung Prinzipien und Praktiken](https://github.com/NerdyStuff/ModerneSoftwareArchitektur#5-software-entwicklung-prinzipien-und-praktiken)<br>
 5.1) Lose Kopplung<br>
 5.2) Hohe Kohäsion<br>
